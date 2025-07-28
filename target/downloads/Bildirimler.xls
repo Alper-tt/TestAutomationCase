@@ -1,0 +1,275 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;" charset="utf-8"> 
+  <meta name="ProgId" content="Excel.Sheet">
+  <meta name="Generator" content="Microsoft Excel 11">
+  <title>Document and Custom Property </title>
+  <!--[if gte mso 9]><xml><o:CustomDocumentProperties><o:BUSINESSGROUP dt:dt="string">CHANNELA</o:BUSINESSGROUP><o:BUSINESSGROUPID dt:dt="string">2</o:BUSINESSGROUPID></o:CustomDocumentProperties></xml><![endif]-->
+  <style> body { text-align: left; } </style>
+ </head>
+ <body>
+  <h1 style="font-size: medium">QNB FİNANSAL KİRALAMA A.Ş.</h1>
+  <h1 style="font-size: medium">Sorumluluk Beyanı (Konsolide Olmayan)</h1>
+  <div>
+   Gönderim Tarihi:28.07.2025 19:39:56
+  </div>
+  <div>
+   Bildirim Tipi:FR
+  </div>
+  <div>
+   Yıl:2025
+  </div>
+  <div>
+   Periyot:2
+  </div>
+  <div>
+   <table class="financial-header-table" border="1" style="font-size:10px"> 
+    <tbody>
+     <tr style=""> 
+      <td class="financial-header-title">Finansal Tablo Niteliği</td> 
+      <td>Konsolide Olmayan </td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <table class="financial-table tbl_oda-26500_Representation-Letter" border="1" style="font-size:10px">
+    <tbody>
+     <tr>
+      <td class="info-table-title-cell taxonomy-abstract-title">
+       <div>
+        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+         İlgili Şirketler
+        </div>
+       </div></td>
+      <td class="info-table-title-cell">
+       <div>
+        <div class="gwt-Label">
+         []
+        </div>
+       </div></td>
+     </tr>
+     <tr>
+      <td class="info-table-title-cell taxonomy-abstract-title">
+       <div>
+        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+         İlgili Fonlar
+        </div>
+       </div></td>
+      <td class="info-table-title-cell">
+       <div>
+        <div class="gwt-Label">
+         []
+        </div>
+       </div></td>
+     </tr>
+    </tbody>
+    <tbody>
+     <tr>
+      <td colspan="3" rowspan="3">
+       <div class="gwt-Label"></div></td>
+     </tr>
+     <tr>
+      <td colspan="0" align="center" class="taxonomy-dimensional-header-cell col-index-4 multi-language-content content-tr report-lang-header taxonomy-dimensional-header-last-cell col-last-index-4" parent="0" rowspan="1" style="display: table-cell;">
+       <div>
+        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+         Türkçe
+        </div>
+       </div></td>
+     </tr>
+     <tr>
+      <td></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-3 abstract-row">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Sorumluluk Beyanı
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-4 data-input-row alternate-row presentation-enabled">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Yapılan Açıklama Düzeltme mi?
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+      <td class="taxonomy-context-value col-order-class-4 multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="gwt-Label taxonomy-label-field standardLabel" title="Hayır (No)">
+         Hayır (No)
+        </div>
+       </div></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-5 data-input-row presentation-enabled">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Konuya İlişkin Daha Önce Yapılan Açıklamanın Tarihi
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+      <td class="taxonomy-context-value col-order-class-4 multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="gwt-Label taxonomy-label-field standardLabel" title="-">
+         -
+        </div>
+       </div></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-6 abstract-row">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title verboseLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Finansal Tablo ve Faaliyet Raporunun Kabulüne İlişkin Yönetim Kurulu Karar Tarihi ve Sayısı
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-7 data-input-row alternate-row presentation-enabled">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Yönetim Kurulu Karar Tarihi
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+      <td class="taxonomy-context-value col-order-class-4 multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="gwt-Label taxonomy-label-field standardLabel" title="28/07/2025">
+         28/07/2025
+        </div>
+       </div></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-8 data-input-row presentation-enabled">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Karar Sayısı
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+      <td class="taxonomy-context-value col-order-class-4 multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="gwt-Label taxonomy-label-field standardLabel" title="1508">
+         1508
+        </div>
+       </div></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-9 abstract-row">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title terseLabel" border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Sermaye Piyasası Kurulu'nun "Sermaye Piyasasında Finansal Raporlamaya İlişkin Esaslar Tebliği'nin İkinci Bölümünün 9. Maddesi Gereğince Sorumluluk Beyanı
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr class="oda-26500_Representation-Letter-row-10 data-input-row alternate-row presentation-enabled">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td colspan="2" class="taxonomy-context-value-summernote multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div>
+         <div class="text-block-value">
+          <p class="MsoNormal" style="textalign:justify"><b><span lang="TR" style="fontfamily: 'Times New Roman TUR', serif;">QNB FİNANS FİNANSAL&nbsp;KİRALAMA A.Ş.</span></b></p>&nbsp;&nbsp;
+          <p class="MsoNormal" style="textalign:justify"><b><span lang="TR" style="fontfamily: 'Times New Roman TUR', serif;">FİNANSAL TABLOLARIN VE&nbsp;FAALİYET RAPORUNUN KABULÜNE İLİŞKİN YÖNETİM KURULU'NUN</span></b></p>
+          <p></p>
+          <p></p>&nbsp;&nbsp;
+          <p class="MsoNormal" style="textalign:justify"><b><span lang="TR" style="fontfamily: 'Times New Roman TUR', serif;"></span></b></p>
+          <p><b>&nbsp;</b></p>
+          <p></p>&nbsp;&nbsp;
+          <p class="MsoNormal" style="textalign:justify"><b><span lang="TR" style="fontfamily: 'Times New Roman TUR', serif;">KARAR TARİHİ : 28/07/2025</span></b></p>
+          <p></p>
+          <p></p>&nbsp;&nbsp;
+          <p class="MsoNormal" style="textalign:justify"><b><span lang="TR" style="fontfamily: 'Times New Roman TUR', serif;">KARAR SAYISI &nbsp;: 1508</span></b></p>
+          <p class="MsoNormal" style="textalign:justify"><b><span lang="TR" style="fontfamily: 'Times New Roman TUR', serif;"><br></span></b></p>&nbsp;&nbsp;
+          <p class="MsoNormal"><b><span lang="TR">SERMAYE&nbsp;PİYASASI KURULU'NUN, SERMAYE PİYASASINDA FİNANSAL RAPORLAMAYA İLİŞKİN ESASLAR&nbsp;TEBLİĞİ'NİN (II-14.1) 9. MADDESİ GEREĞİNCE SORUMLULUK BEYANI</span></b></p>&nbsp;&nbsp;
+          <p class="MsoBodyText" style="margn-left:.25in;textalign:justify;textindent:&nbsp;-.25in;mso-list:l0 level1 lfo1;tab-stops:list .25in"><span lang="TR" style="fontsize:10.0pt">a)<span style="font-stretch: normal; fontsize: 7pt; lineheight: normal; fontfamily: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang="TR" style="fontsize:10.0pt">30/06/2025 dönemine ilişkin finansal tablo ve&nbsp;faaliyet raporunun tarafımızca incelendiğini,</span></p>&nbsp;&nbsp;
+          <p class="MsoBodyText" style="margn-left:.25in;textalign:justify;textindent:&nbsp;-.25in;mso-list:l0 level1 lfo1;tab-stops:list .25in"><span lang="TR" style="fontsize:10.0pt">b)<span style="font-stretch: normal; fontsize: 7pt; lineheight: normal; fontfamily: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang="TR" style="fontsize:10.0pt">Şirketimizdeki görev ve sorumluluk alanımızda&nbsp;sahip olduğumuz bilgiler çerçevesinde, finansal tablo ve faaliyet raporunun&nbsp;önemli konularda gerçeğe aykırı bir açıklama veya açıklamanın yapıldığı tarih&nbsp;itibarıyla yanıltıcı olması sonucunu doğurabilecek herhangi bir eksiklik&nbsp;içermediğini,</span></p>&nbsp;&nbsp;
+          <p class="MsoBodyText" style="margn-left:.25in;textalign:justify;textindent:&nbsp;-.25in;mso-list:l0 level1 lfo1;tab-stops:list .25in"><span lang="TR" style="fontsize:10.0pt">c)<span style="font-stretch: normal; fontsize: 7pt; lineheight: normal; fontfamily: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang="TR" style="fontsize:10.0pt">Şirketimizdeki görev ve sorumluluk alanımızda&nbsp;sahip olduğumuz bilgiler çerçevesinde, bu tebliğ uyarınca hazırlanmış finansal&nbsp;tabloların, Şirketimizin aktifleri, pasifleri, finansal durumu ve kar ve zararı&nbsp;ile ilgili gerçeği dürüst bir biçimde yansıttığı ve faaliyet raporunun işin&nbsp;gelişimi ve performansını ve işletmenin finansal durumunu, karşı karşıya olduğu&nbsp;önemli riskler ve belirsizliklerle birlikte dürüstçe yansıttığını,</span></p>&nbsp;&nbsp;
+          <p class="MsoBodyText" style="margn-left:.25in;textalign:justify;textindent:&nbsp;-.25in;mso-list:l0 level1 lfo1;tab-stops:list .25in"><span lang="TR" style="fontsize:10.0pt">d)<span style="font-stretch: normal; fontsize: 7pt; lineheight: normal; fontfamily: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang="TR" style="fontsize:10.0pt">10.01.2019 tarih ve 2019/2 sayılı SPK&nbsp;Bülteni'nde yayımlanan Kurulumuzun 10.01.2019 Tarih ve 2/49 sayılı Kararı ile&nbsp;II-17.1 sayılı Kurumsal Yönetim Tebliği uyarınca düzenlenen, Kurumsal Yönetim&nbsp;Uyum Raporu (URF) ve Kurumsal Yönetim Bilgi Formu'nun (KYBF) incelendiğini ve&nbsp;herhangi bir eksiklik içermediğini,</span><span style="lineheight: 1.42857;">&nbsp;</span></p>&nbsp;&nbsp;
+          <p class="MsoNormal" style="margn-left:.25in;textalign:justify"><span lang="TR">beyan&nbsp;ederiz.</span></p>&nbsp;&nbsp;
+          <p class="MsoNormal" style="margn-left:.25in"><span lang="TR">Saygılarımızla,</span><span style="lineheight: 1.42857;">&nbsp;</span></p>
+          <p class="MsoNormal" style="margn-left:.25in"><span style="lineheight: 1.42857;">Filiz Sonat</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Kubilay Cinemre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Osman Taş</p>
+          <p class="MsoNormal" style="margn-left:.25in"><span style="lineheight: 1.42857;">Yönetim Kurulu Üyesi</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yönetim Kurulu Üyesi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Genel Müdür</p>
+          <p class="MsoNormal" style="margn-left:.25in"><span style="lineheight: 1.42857;">Denetim Komitesi Başkanı</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Denetim Komitesi Üyesi</p>&nbsp;&nbsp;
+          <br>
+         </div>
+        </div>
+       </div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <br>
+  <br>
+  <div style="margin: 10px 0; text-align: center; font-weight: bold;">
+   ----------------------------------------------------------------------------------------------------------------
+  </div>
+  <br>
+  <br>
+ </body>
+</html>

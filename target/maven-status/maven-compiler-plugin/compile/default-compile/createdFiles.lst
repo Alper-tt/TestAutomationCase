@@ -1,2 +1,5 @@
+pages/SorguPage.class
+pages/SonuclarPage.class
+pages/NotificationDetailsPage.class
 utils/DriverFactory.class
 pages/KapHomePage.class

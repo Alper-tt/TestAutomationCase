@@ -1,0 +1,327 @@
+src/main/java/pages/KapHomePage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/main/java/pages/KapHomePage.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/main/java/pages/KapHomePage.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/main/java/pages/KapHomePage.java:6: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/main/java/pages/KapHomePage.java:7: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/main/java/pages/KapHomePage.java:13: error: cannot find symbol
+    private WebDriver driver;
+            ^
+  symbol:   class WebDriver
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:14: error: cannot find symbol
+    private WebDriverWait wait;
+            ^
+  symbol:   class WebDriverWait
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:17: error: cannot find symbol
+    public KapHomePage(WebDriver driver) {
+                       ^
+  symbol:   class WebDriver
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:23: error: cannot find symbol
+    private By bildirimSorgulariButton = By.xpath("//button[.//span[text()='Bildirim Sorguları']]");
+            ^
+  symbol:   class By
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:26: error: cannot find symbol
+    private By detayliSorgulamaLink = By.xpath("//a[@href='/tr/bildirim-sorgu']");
+            ^
+  symbol:   class By
+  location: class KapHomePage
+src/main/java/pages/SorguPage.java:4: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/main/java/pages/SorguPage.java:5: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/main/java/pages/SorguPage.java:12: error: cannot find symbol
+    WebDriver driver;
+    ^
+  symbol:   class WebDriver
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:13: error: cannot find symbol
+    WebDriverWait wait;
+    ^
+  symbol:   class WebDriverWait
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:15: error: cannot find symbol
+    public SorguPage(WebDriver driver) {
+                     ^
+  symbol:   class WebDriver
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:21: error: cannot find symbol
+    private By sirketBildirimiTab = By.xpath("//button[text()='Şirket Bildirimi']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:24: error: cannot find symbol
+    private By dropdownToggle = By.cssSelector(".custom-select-toggle");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:27: error: cannot find symbol
+    private By islemGorenOption = By.xpath("//div[contains(@class, 'select-option') and text()='İşlem Gören Şirketler']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:30: error: cannot find symbol
+    private By dateInput = By.cssSelector("input[placeholder='Tarih...']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:33: error: cannot find symbol
+    private By searchButton = By.xpath("//button[normalize-space()='Ara']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:63: error: cannot find symbol
+    private By datepickerButton = By.cssSelector(".MuiIconButton-root[aria-label^='Choose date']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:64: error: cannot find symbol
+    private By switchToYearButton = By.cssSelector("button[aria-label*='calendar view']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:65: error: cannot find symbol
+    private By year2025 = By.xpath("//button[text()='2025']");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:66: error: cannot find symbol
+    private By juneMonth = By.xpath("//button[contains(@aria-label, 'Haziran') or contains(text(), 'Haz')]");
+            ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/main/java/utils/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src/main/java/utils/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/main/java/utils/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/main/java/utils/DriverFactory.java:8: error: cannot find symbol
+    private static WebDriver driver;
+                   ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/main/java/utils/DriverFactory.java:10: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/test/java/steps/KapSteps.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/steps/KapSteps.java:11: error: cannot find symbol
+    WebDriver driver = DriverFactory.getDriver();
+    ^
+  symbol:   class WebDriver
+  location: class KapSteps
+src/main/java/pages/KapHomePage.java:19: error: cannot find symbol
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                        ^
+  symbol:   class WebDriverWait
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:23: error: cannot find symbol
+    private By bildirimSorgulariButton = By.xpath("//button[.//span[text()='Bildirim Sorguları']]");
+                                         ^
+  symbol:   variable By
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:26: error: cannot find symbol
+    private By detayliSorgulamaLink = By.xpath("//a[@href='/tr/bildirim-sorgu']");
+                                      ^
+  symbol:   variable By
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:30: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(bildirimSorgulariButton));
+        ^
+  symbol:   class WebElement
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:30: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(bildirimSorgulariButton));
+                                        ^
+  symbol:   variable ExpectedConditions
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:36: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(detayliSorgulamaLink));
+        ^
+  symbol:   class WebElement
+  location: class KapHomePage
+src/main/java/pages/KapHomePage.java:36: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(detayliSorgulamaLink));
+                                        ^
+  symbol:   variable ExpectedConditions
+  location: class KapHomePage
+src/main/java/pages/SorguPage.java:17: error: cannot find symbol
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                        ^
+  symbol:   class WebDriverWait
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:21: error: cannot find symbol
+    private By sirketBildirimiTab = By.xpath("//button[text()='Şirket Bildirimi']");
+                                    ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:24: error: cannot find symbol
+    private By dropdownToggle = By.cssSelector(".custom-select-toggle");
+                                ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:27: error: cannot find symbol
+    private By islemGorenOption = By.xpath("//div[contains(@class, 'select-option') and text()='İşlem Gören Şirketler']");
+                                  ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:30: error: cannot find symbol
+    private By dateInput = By.cssSelector("input[placeholder='Tarih...']");
+                           ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:33: error: cannot find symbol
+    private By searchButton = By.xpath("//button[normalize-space()='Ara']");
+                              ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:36: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(sirketBildirimiTab));
+        ^
+  symbol:   class WebElement
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:36: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(sirketBildirimiTab));
+                                        ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:42: error: cannot find symbol
+        List<WebElement> dropdowns = driver.findElements(By.cssSelector(".custom-select-toggle"));
+             ^
+  symbol:   class WebElement
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:42: error: cannot find symbol
+        List<WebElement> dropdowns = driver.findElements(By.cssSelector(".custom-select-toggle"));
+                                                         ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:45: error: cannot find symbol
+        for (WebElement dropdown : dropdowns) {
+             ^
+  symbol:   class WebElement
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:47: error: cannot find symbol
+                wait.until(ExpectedConditions.elementToBeClickable(dropdown)).click();
+                           ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:54: error: cannot find symbol
+            throw new NoSuchElementException("Dropdown with text '" + dropdownText + "' not found.");
+                      ^
+  symbol:   class NoSuchElementException
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:57: error: cannot find symbol
+        By optionLocator = By.xpath("//div[contains(@class,'select-option') and text()='" + optionText + "']");
+        ^
+  symbol:   class By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:57: error: cannot find symbol
+        By optionLocator = By.xpath("//div[contains(@class,'select-option') and text()='" + optionText + "']");
+                           ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:58: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(optionLocator)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:63: error: cannot find symbol
+    private By datepickerButton = By.cssSelector(".MuiIconButton-root[aria-label^='Choose date']");
+                                  ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:64: error: cannot find symbol
+    private By switchToYearButton = By.cssSelector("button[aria-label*='calendar view']");
+                                    ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:65: error: cannot find symbol
+    private By year2025 = By.xpath("//button[text()='2025']");
+                          ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:66: error: cannot find symbol
+    private By juneMonth = By.xpath("//button[contains(@aria-label, 'Haziran') or contains(text(), 'Haz')]");
+                           ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:73: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(switchToYearButton)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:76: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(year2025)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:79: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(juneMonth)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:86: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(datepickerButton)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:91: error: cannot find symbol
+        WebElement dayElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
+        ^
+  symbol:   class WebElement
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:91: error: cannot find symbol
+        WebElement dayElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
+                                           ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:91: error: cannot find symbol
+        WebElement dayElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
+                                                                                   ^
+  symbol:   variable By
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:96: error: cannot find symbol
+        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(searchButton));
+        ^
+  symbol:   class WebElement
+  location: class SorguPage
+src/main/java/pages/SorguPage.java:96: error: cannot find symbol
+        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(searchButton));
+                                    ^
+  symbol:   variable ExpectedConditions
+  location: class SorguPage
+src/main/java/utils/DriverFactory.java:12: error: cannot find symbol
+            WebDriverManager.chromedriver().setup();
+            ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/main/java/utils/DriverFactory.java:13: error: cannot find symbol
+            driver = new ChromeDriver();
+                         ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+70 errors

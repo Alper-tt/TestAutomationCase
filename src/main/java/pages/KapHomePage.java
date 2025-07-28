@@ -10,30 +10,23 @@ import java.time.Duration;
 
 public class KapHomePage {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+    private final WebDriver driver;
+    private final WebDriverWait wait;
 
-    // Constructor
     public KapHomePage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    // Bildirim Sorguları dropdown butonu
-    private By bildirimSorgulariButton = By.xpath("//button[.//span[text()='Bildirim Sorguları']]");
-
-    // Detaylı Sorgulama linki
-    private By detayliSorgulamaLink = By.xpath("//a[@href='/tr/bildirim-sorgu']");
-
-    // Dropdown'ı aç
-    public void clickBildirimSorgulari() {
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(bildirimSorgulariButton));
+    public void clickMenu(String menuText) {
+        By menuButton = By.xpath("//button[.//span[text()='" + menuText + "']]");
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(menuButton));
         element.click();
     }
 
-    // Detaylı Sorgulama linkine tıkla
-    public void clickDetayliSorgulama() {
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(detayliSorgulamaLink));
+    public void clickSubMenu(String subMenuText) {
+        By subMenuLink = By.xpath("//a[contains(@href, '/tr/') and contains(text(), '" + subMenuText + "')]");
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(subMenuLink));
         element.click();
     }
 }
