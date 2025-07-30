@@ -1,5 +1,6 @@
 /Users/alper/Desktop/TestAutomationCase/src/main/java/pages/KapHomePage.java
-/Users/alper/Desktop/TestAutomationCase/src/main/java/pages/SonuclarPage.java
 /Users/alper/Desktop/TestAutomationCase/src/main/java/utils/DriverFactory.java
-/Users/alper/Desktop/TestAutomationCase/src/main/java/pages/SorguPage.java
+/Users/alper/Desktop/TestAutomationCase/src/main/java/pages/QueryPage.java
+/Users/alper/Desktop/TestAutomationCase/src/main/java/pages/ResultsPage.java
+/Users/alper/Desktop/TestAutomationCase/src/main/java/utils/DownloadChecker.java
 /Users/alper/Desktop/TestAutomationCase/src/main/java/pages/NotificationDetailsPage.java

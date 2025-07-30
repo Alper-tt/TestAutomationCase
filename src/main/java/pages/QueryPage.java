@@ -1,85 +1,52 @@
 package pages;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-import java.util.List;
-
-public class QueryPage {
-
-    private final WebDriver driver;
-    private final WebDriverWait wait;
+public class QueryPage extends BasePage {
 
     public QueryPage(WebDriver driver) {
-        this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        super(driver, "QueryPage");
     }
-
-    private By dropdownToggle = By.cssSelector(".custom-select-toggle");
-
-    private By datepickerButton = By.cssSelector(".MuiIconButton-root[aria-label^='Choose date']");
-    private By switchToYearButton = By.cssSelector("button[aria-label*='calendar view']");
 
     public void clickTab(String tabName) {
-        By tabLocator = By.xpath("//button[normalize-space()='" + tabName + "']");
-        WebElement tab = wait.until(ExpectedConditions.elementToBeClickable(tabLocator));
-        tab.click();
+        By tabLocator = getLocator(tabName);
+        clickByLocator(tabLocator);
     }
 
-    public void selectFromDropdownByVisibleText(String dropdownText, String optionText) {
-        List<WebElement> dropdowns = driver.findElements(dropdownToggle);
-        boolean found = false;
-
-        for (WebElement dropdown : dropdowns) {
-            if (dropdown.getText().trim().contains(dropdownText)) {
-                wait.until(ExpectedConditions.elementToBeClickable(dropdown)).click();
-                found = true;
-                break;
-            }
-        }
-
-        if (!found) {
-            throw new NoSuchElementException("Dropdown with text '" + dropdownText + "' not found.");
-        }
-
-        By optionLocator = By.xpath("//div[contains(@class,'select-option') and text()='" + optionText + "']");
-        wait.until(ExpectedConditions.elementToBeClickable(optionLocator)).click();
+    public void clickDropdown(String dropdownKey) {
+        By dropdown = getLocator(dropdownKey);
+        clickByLocator(dropdown);
     }
 
-    public void setDate(String targetDate) {
-        openDatePicker();
-
-        wait.until(ExpectedConditions.elementToBeClickable(switchToYearButton)).click();
-
-        String[] parts = targetDate.split("\\.");
-        String day = parts[0];
-        String month = parts[1];
-        String year = parts[2];
-
-        By dynamicYear = By.xpath("//button[text()='" + year + "']");
-        wait.until(ExpectedConditions.elementToBeClickable(dynamicYear)).click();
-
-        String monthLabel = getMonthName(month);
-        By dynamicMonth = By.xpath("//button[contains(@aria-label, '" + monthLabel + "') or contains(text(), '" + monthLabel.substring(0, 3) + "')]");
-        wait.until(ExpectedConditions.elementToBeClickable(dynamicMonth)).click();
-
-        selectDay(Integer.parseInt(day));
+    public void selectDropdownOption(String optionText) {
+        String rawXpath = getLocatorRaw("dropdownOption_Generic");
+        String finalXpath = String.format(rawXpath, optionText);
+        By optionLocator = By.xpath(finalXpath);
+        clickByLocator(optionLocator);
     }
 
-    private void openDatePicker() {
-        wait.until(ExpectedConditions.elementToBeClickable(datepickerButton)).click();
+    public void selectStartDate(String date) {
+        clickByLocator(getLocator("datepickerButton_BaslangicTarihi"));
+        clickByLocator(getLocator("switchToYearButton"));
+
+        String[] parts = date.split("\\.");
+        String gun = String.valueOf(Integer.parseInt(parts[0]));
+        String ay = parts[1];
+        String yil = parts[2];
+
+        String yearXpath = String.format(getLocatorRaw("yearButton_Generic"), yil);
+        clickByLocator(By.xpath(yearXpath));
+
+        String ayLabel = getMonthName(ay);
+        String monthXpath = String.format(getLocatorRaw("monthButton_Generic"), ayLabel, ayLabel.substring(0, 3));
+        clickByLocator(By.xpath(monthXpath));
+
+        String dayXpath = String.format(getLocatorRaw("dayButton_Generic"), gun);
+        clickByLocator(By.xpath(dayXpath));
     }
 
-    private void selectDay(int day) {
-        String xpath = "//button[normalize-space()='" + day + "' and not(@disabled)]";
-        WebElement dayElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
-        dayElement.click();
-    }
-
-    private String getMonthName(String monthNumber) {
-        return switch (monthNumber) {
+    private String getMonthName(String number) {
+        return switch (number) {
             case "01" -> "Ocak";
             case "02" -> "Şubat";
             case "03" -> "Mart";
@@ -92,20 +59,13 @@ public class QueryPage {
             case "10" -> "Ekim";
             case "11" -> "Kasım";
             case "12" -> "Aralık";
-            default -> throw new IllegalArgumentException("Geçersiz ay: " + monthNumber);
+            default -> throw new IllegalArgumentException("Geçersiz ay: " + number);
         };
     }
 
-    public void clickButton(String buttonLabel) {
-        By btnLocator = By.xpath("//button[contains(text(),'" + buttonLabel + "')]");
-        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(btnLocator));
 
-        try {
-            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", btn);
-            btn.click();
-        } catch (Exception e) {
-            System.out.println("Normal click başarısız, JS ile tıklanıyor.");
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
-        }
+    public void clickButton(String buttonLabel) {
+        By btnLocator = getLocator(buttonLabel);
+        scrollAndClickBy(btnLocator); // BasePage’ten
     }
 }

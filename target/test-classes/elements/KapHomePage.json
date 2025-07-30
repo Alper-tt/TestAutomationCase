@@ -1,0 +1,22 @@
+[
+  {
+    "key": "menuBtn_BildirimSorgulari",
+    "value": "Bildirim Sorguları0",
+    "type": "id"
+  },
+  {
+    "key": "menuBtn_Sirketler",
+    "value": "Şirketler1",
+    "type": "id"
+  },
+  {
+    "key": "submenuLink_DetayliSorgulama",
+    "value": "a[href='/tr/bildirim-sorgu']",
+    "type": "css"
+  },
+  {
+    "key": "submenuLink_BeklenenBildirimler",
+    "value": "a[href='/tr/beklenen-bildirim-sorgu']",
+    "type": "css"
+  }
+]

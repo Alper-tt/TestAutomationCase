@@ -1,0 +1,52 @@
+[
+  {
+    "key": "tabBtn_SirketBildirimi",
+    "value": "//button[text()='Şirket Bildirimi']",
+    "type": "xpath"
+  },
+  {
+    "key": "tabBtn_FonBildirimi",
+    "value": "//button[normalize-space()='Fon Bildirimi']",
+    "type": "xpath"
+  },
+  {
+    "key": "dropdownToggle_SirketGrubu",
+    "value": "//div[label[text()='Şirket Grubu']]//div[contains(@class, 'custom-select-toggle')]",
+    "type": "xpath"
+  },
+  {
+    "key": "dropdownOption_Generic",
+    "value": "//div[contains(@class, 'select-option') and normalize-space()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "datepickerButton_BaslangicTarihi",
+    "value": "//label[text()='Başlangıç Tarihi']/following-sibling::div//button",
+    "type": "xpath"
+  },
+  {
+    "key": "switchToYearButton",
+    "value": "//button[contains(@aria-label,'switch to year view')]",
+    "type": "xpath"
+  },
+  {
+    "key": "yearButton_Generic",
+    "value": "//button[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "monthButton_Generic",
+    "value": "//button[contains(@aria-label, '%s') or text()[contains(.,'%s')]]",
+    "type": "xpath"
+  },
+  {
+    "key": "dayButton_Generic",
+    "value": "//button[normalize-space(.)='%s' and not(@disabled)]",
+    "type": "xpath"
+  },
+  {
+    "key": "button_Ara",
+    "value": "//button[text()='Ara']",
+    "type": "xpath"
+  }
+]

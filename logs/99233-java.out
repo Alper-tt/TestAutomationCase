@@ -1,0 +1,53 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4 (file:/Users/alper/.m2/repository/io/grpc/grpc-netty-shaded/1.72.0/grpc-netty-shaded-1.72.0.jar)
+WARNING: Please consider reporting this to the maintainers of class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+{"logLevel":"debug","message":"gauge-java took 296milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 296"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55899"}
+{"logLevel":"info","message":"Listening on port:55899"}
+[pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 552 ms to scan 79 urls, producing 5444 keys and 32495 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.checkExcelDownloaded' and 'steps.KapSteps.checkExcelDownloaded'"}
+{"logLevel":"debug","message":"Found Excel dosyası {} olarak indirilmiş olmalı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.checkCurrentUrl' and 'steps.KapSteps.checkCurrentUrl'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} olmalı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.selectFromDropdown' and 'steps.KapSteps.selectFromDropdown'"}
+{"logLevel":"debug","message":"Found {} açılır menüsünden {} seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.clickMenuAndSubmenu' and 'steps.KapSteps.clickMenuAndSubmenu'"}
+{"logLevel":"debug","message":"Found {} menüsüne tıklanır ve {} seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.checkCurrentUrl' and 'steps.KapSteps.checkCurrentUrl2'"}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.checkCurrentUrl2' and 'steps.KapSteps.checkCurrentUrl2'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} olmalı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.navigateToUrl' and 'steps.KapSteps.navigateToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.enterDateAndClickButton' and 'steps.KapSteps.enterDateAndClickButton'"}
+{"logLevel":"debug","message":"Found Tarih olarak {} girilir ve {} butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.clickFirstRowContainingText' and 'steps.KapSteps.clickFirstRowContainingText'"}
+{"logLevel":"debug","message":"Found {} içeren ilk satıra tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.urlShouldStartWith' and 'steps.KapSteps.urlShouldStartWith'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} içermeli in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.selectTab' and 'steps.KapSteps.selectTab'"}
+{"logLevel":"debug","message":"Found {} sekmesi seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.downloadExcel' and 'steps.KapSteps.downloadExcel'"}
+{"logLevel":"debug","message":"Found Excel dosyası indirilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} sekmesi seçilir : public void selectTab(String tabName)"}
+{"logLevel":"debug","message":"\tExcel dosyası indirilir : public void downloadExcel()"}
+{"logLevel":"debug","message":"\tSayfanın URL'si {} olmalı : public void checkCurrentUrl(String expectedUrl)"}
+{"logLevel":"debug","message":"\t{} açılır menüsünden {} seçilir : public void selectFromDropdown(String dropdownLabel, String option)"}
+{"logLevel":"debug","message":"\tExcel dosyası {} olarak indirilmiş olmalı : public void checkExcelDownloaded(String dosyaAdı) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} içeren ilk satıra tıklanır : public void clickFirstRowContainingText(String text)"}
+{"logLevel":"debug","message":"\t{} adresine gidilir : public void navigateToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} menüsüne tıklanır ve {} seçilir : public void clickMenuAndSubmenu(String menu, String submenu)"}
+{"logLevel":"debug","message":"\tSayfanın URL'si {} içermeli : public void urlShouldStartWith(String pathPrefix)"}
+{"logLevel":"debug","message":"\tTarih olarak {} girilir ve {} butonuna tıklanır : public void enterDateAndClickButton(String date, String buttonLabel)"}
+[pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 229 ms to scan 79 urls, producing 5364 keys and 22470 values
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
