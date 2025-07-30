@@ -10,13 +10,32 @@
     "type": "id"
   },
   {
-    "key": "submenuLink_DetayliSorgulama",
-    "value": "a[href='/tr/bildirim-sorgu']",
+    "key": "menuBtn_Fonlar",
+    "value": "Fonlar2",
+    "type": "id"
+  },  {
+    "key": "menuBtn_KapHakkında",
+    "value": "KAP Hakkında3",
+    "type": "id"
+  },
+  {
+    "key": "submenuLink_BugunGelenBildirimler",
+    "value": "a[href='/tr/']",
     "type": "css"
   },
   {
     "key": "submenuLink_BeklenenBildirimler",
     "value": "a[href='/tr/beklenen-bildirim-sorgu']",
+    "type": "css"
+  },
+  {
+    "key": "submenuLink_DetayliSorgulama",
+    "value": "a[href='/tr/bildirim-sorgu']",
+    "type": "css"
+  },
+  {
+    "key": "submenuLink_KalemSorgulama",
+    "value": "a[href='/tr/kalem-karsilastirma']",
     "type": "css"
   }
 ]

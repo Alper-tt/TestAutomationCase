@@ -26,56 +26,30 @@ public class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
 
+    public void clickByKey(String key) {
+        By locator = getLocator(key);
+        clickByLocator(locator);
+    }
+
     protected String getLocatorRaw(String key) {
         return locatorReader.getRaw(key);
-    }
-
-    public void clickByWebElement(WebElement element) {
-        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-    }
-
-    public void scrollTo(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
     }
 
     public void clickWithJS(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
 
-    public String getText(By locator) {
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+    public void scrollAndClick(By locator) {
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        scrollAndClick(element);
     }
 
-    public boolean isElementVisible(By locator) {
-        try {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-            return true;
-        } catch (TimeoutException e) {
-            return false;
-        }
-    }
-
-    public WebElement find(By locator) {
-        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-    }
-
-    public void scrollAndClickBy(By locator) {
-        try {
-            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
-            element.click();
-        } catch (Exception e) {
-            WebElement element = driver.findElement(locator);
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-        }
-    }
-
-    public void scrollAndClickWebElement(WebElement element) {
+    public void scrollAndClick(WebElement element) {
         try {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
-            element.click();
+            wait.until(ExpectedConditions.elementToBeClickable(element)).click();
         } catch (Exception e) {
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+            clickWithJS(element);
         }
     }
 }

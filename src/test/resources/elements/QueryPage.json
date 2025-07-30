@@ -6,7 +6,7 @@
   },
   {
     "key": "tabBtn_FonBildirimi",
-    "value": "//button[normalize-space()='Fon Bildirimi']",
+    "value": "//button[text()='Fon Bildirimi']",
     "type": "xpath"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "key": "dropdownOption_Generic",
-    "value": "//div[contains(@class, 'select-option') and normalize-space()='%s']",
+    "value": "//div[contains(@class, 'select-option') and text()='%s']",
     "type": "xpath"
   },
   {

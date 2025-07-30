@@ -26,10 +26,9 @@ public class ResultsPage extends BasePage {
 
         for (WebElement row : rows) {
                 WebElement cell = row.findElement(getLocator("clickableCellInRow"));
-                scrollAndClickWebElement(cell);
+                scrollAndClick(cell);
             return;
         }
-
         throw new NotFoundException("'" + text + "' içeren satır bulunamadı.");
     }
 

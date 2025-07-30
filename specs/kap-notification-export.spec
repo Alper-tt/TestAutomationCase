@@ -13,5 +13,14 @@
 * "button_Ara" butonuna tıklanır
 * "QNB" içeren ilk satıra tıklanır
 * Sayfanın URL'si "Bildirim" içermeli
-* Excel dosyası indirilir
-* Excel dosyası "Bildirimler.xls" olarak indirilmiş olmalı
+* "excel" dosyası indirilir
+* "excel" dosyası "Bildirimler.xls" olarak indirilmiş olmalı
+
+
+### Opsiyonel olarak KAP ana ve alt menüsündeki butonlar (ör. Şirketler, Fonlar, Bugün Gelen Bildirimler vb.) eklenmiştir. (Bkz. /elements/KapHomePage.json)
+### Opsiyonel olarak bugün gelen bildirimler, beklenen bildirimler, kalem sorgulama eklenmiştir.(Bkz. /elements/KapHomePage.json)
+### Opsiyonel olarak fon bildirim sekmesi de eklenmiştir. (Bkz. /elements/QueryPage.json)
+### Dropdown menüden istenilen seçenek seçilebilmektedir. (Örn: Yatırım Kuruluşları, Portföy Yönetim Şirketleri...)
+### Tarih seçimi dinamik olarak entegre edilmiştir.
+### Şirket seçimi dinamik olarak entegre edilmiştir. (Örn: ZKBVK, AYDEM...)
+### Opsiyonel olarak word dosyası da indirilebilir şekildedir. ("word", "word", "Bildirimler.doc")

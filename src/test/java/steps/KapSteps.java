@@ -21,6 +21,8 @@ public class KapSteps {
     WebDriver driver = DriverFactory.getDriver();
     KapHomePage homePage = new KapHomePage(driver);
     QueryPage queryPage = new QueryPage(driver);
+    ResultsPage resultsPage = new ResultsPage(driver);
+    NotificationDetailsPage notificationDetailsPage = new NotificationDetailsPage(driver);
 
     @BeforeScenario
     public void before() {
@@ -60,7 +62,7 @@ public class KapSteps {
         queryPage.clickDropdown(dropdownKey);
     }
 
-    @Step("<grup> grubu açılır menüden seçilir")
+    @Step("<group> grubu açılır menüden seçilir")
     public void selectDropdownOption(String optionText) {
         queryPage.selectDropdownOption(optionText);
     }
@@ -77,9 +79,8 @@ public class KapSteps {
 
     @Step("<text> içeren ilk satıra tıklanır")
     public void clickFirstRowContainingText(String text) {
-        ResultsPage sonucPage = new ResultsPage(driver);
-        sonucPage.clickFirstRowContaining(text);
-        sonucPage.switchToNewTab();
+        resultsPage.clickFirstRowContaining(text);
+        resultsPage.switchToNewTab();
     }
 
     @Step("Sayfanın URL'si <text> içermeli")
@@ -90,19 +91,17 @@ public class KapSteps {
                 .contains(pathPrefix);
     }
 
-    @Step("Excel dosyası indirilir")
-    public void downloadExcel() {
-        NotificationDetailsPage notificationDetailsPage = new NotificationDetailsPage(driver);
-        notificationDetailsPage.downloadExcel();
-        System.out.println("Excel dosyası indirilir....");
+    @Step("<format> dosyası indirilir")
+    public void clickExcelDownloadButton(String format) {
+        notificationDetailsPage.clickDownloadButton(format);
     }
 
-    @Step("Excel dosyası <dosyaAdı> olarak indirilmiş olmalı")
-    public void checkExcelDownloaded(String dosyaAdı) throws InterruptedException {
-        String filePath = DriverFactory.getDownloadDir() + "/" + dosyaAdı;
+    @Step("<format> dosyası <expectedFileName> olarak indirilmiş olmalı")
+    public void checkExcelDownloaded(String format, String expectedFileName) throws InterruptedException {
+        String filePath = DriverFactory.getDownloadDir() + "/" + expectedFileName;
         boolean isDownloaded = DownloadChecker.waitForFileDownload(filePath, 10); //Proje ihtiyacına göre ScheduledExecutorService kullanılabilir
         assertThat(isDownloaded)
-                .as("Dosya belirtilen sürede indirilemedi: %s", dosyaAdı)
+                .as("Dosya belirtilen sürede indirilemedi: %s", expectedFileName)
                 .isTrue();
         driver.quit();
     }

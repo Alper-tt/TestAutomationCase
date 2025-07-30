@@ -63,9 +63,8 @@ public class QueryPage extends BasePage {
         };
     }
 
-
     public void clickButton(String buttonLabel) {
         By btnLocator = getLocator(buttonLabel);
-        scrollAndClickBy(btnLocator); // BasePage’ten
+        scrollAndClick(btnLocator);
     }
 }
