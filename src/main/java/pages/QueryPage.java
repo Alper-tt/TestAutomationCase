@@ -5,29 +5,12 @@ import org.openqa.selenium.*;
 public class QueryPage extends BasePage {
 
     public QueryPage(WebDriver driver) {
-        super(driver, "QueryPage");
-    }
-
-    public void clickTab(String tabName) {
-        By tabLocator = getLocator(tabName);
-        clickByLocator(tabLocator);
-    }
-
-    public void clickDropdown(String dropdownKey) {
-        By dropdown = getLocator(dropdownKey);
-        clickByLocator(dropdown);
-    }
-
-    public void selectDropdownOption(String optionText) {
-        String rawXpath = getLocatorRaw("dropdownOption_Generic");
-        String finalXpath = String.format(rawXpath, optionText);
-        By optionLocator = By.xpath(finalXpath);
-        clickByLocator(optionLocator);
+        super(driver);
     }
 
     public void selectStartDate(String date) {
-        clickByLocator(getLocator("datepickerButton_BaslangicTarihi"));
-        clickByLocator(getLocator("switchToYearButton"));
+        scrollAndClick("datepickerButton_BaslangicTarihi");
+        clickByKey("switchToYearButton");
 
         String[] parts = date.split("\\.");
         String gun = String.valueOf(Integer.parseInt(parts[0]));
@@ -61,10 +44,5 @@ public class QueryPage extends BasePage {
             case "12" -> "Aralık";
             default -> throw new IllegalArgumentException("Geçersiz ay: " + number);
         };
-    }
-
-    public void clickButton(String buttonLabel) {
-        By btnLocator = getLocator(buttonLabel);
-        scrollAndClick(btnLocator);
     }
 }

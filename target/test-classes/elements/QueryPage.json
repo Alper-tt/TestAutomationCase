@@ -21,7 +21,7 @@
   },
   {
     "key": "datepickerButton_BaslangicTarihi",
-    "value": "//label[text()='Başlangıç Tarihi']/following-sibling::div//button",
+    "value": "//label[text()='Başlangıç Tarihi']/following-sibling::div",
     "type": "xpath"
   },
   {

@@ -1,0 +1,412 @@
+src/main/java/pages/BasePage.java:10: error: cannot find symbol
+    protected final WebDriver driver;
+                    ^
+  symbol:   class WebDriver
+  location: class BasePage
+src/main/java/pages/BasePage.java:11: error: cannot find symbol
+    protected final WebDriverWait wait;
+                    ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+src/main/java/utils/ElementLocatorReader.java:3: error: package com.fasterxml.jackson.databind does not exist
+import com.fasterxml.jackson.databind.ObjectMapper;
+                                     ^
+src/main/java/utils/ElementLocatorReader.java:4: error: package com.fasterxml.jackson.core.type does not exist
+import com.fasterxml.jackson.core.type.TypeReference;
+                                      ^
+src/main/java/utils/ElementLocatorReader.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/main/java/pages/BasePage.java:19: error: cannot find symbol
+    public BasePage(WebDriver driver) {
+                    ^
+  symbol:   class WebDriver
+  location: class BasePage
+src/main/java/pages/BasePage.java:24: error: cannot find symbol
+    protected By getLocator(String key) {
+              ^
+  symbol:   class By
+  location: class BasePage
+src/main/java/pages/BasePage.java:28: error: cannot find symbol
+    public void clickByLocator(By locator) {
+                               ^
+  symbol:   class By
+  location: class BasePage
+src/main/java/pages/BasePage.java:52: error: cannot find symbol
+    public void clickWithJS(WebElement element) {
+                            ^
+  symbol:   class WebElement
+  location: class BasePage
+src/main/java/pages/BasePage.java:56: error: cannot find symbol
+    public void scrollAndClick(WebElement element) {
+                               ^
+  symbol:   class WebElement
+  location: class BasePage
+src/main/java/pages/BasePage.java:65: error: cannot find symbol
+    public void scrollAndClick(By locator) {
+                               ^
+  symbol:   class By
+  location: class BasePage
+src/main/java/utils/ElementLocatorReader.java:11: error: cannot find symbol
+    private final Map<String, By> locatorMap = new HashMap<>();
+                              ^
+  symbol:   class By
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:51: error: cannot find symbol
+    public By get(String key) {
+           ^
+  symbol:   class By
+  location: class ElementLocatorReader
+src/main/java/pages/BasePage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/main/java/pages/BasePage.java:4: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.*;
+^
+src/main/java/pages/KapHomePage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/main/java/pages/KapHomePage.java:6: error: cannot find symbol
+    public KapHomePage(WebDriver driver) {
+                       ^
+  symbol:   class WebDriver
+  location: class KapHomePage
+src/main/java/pages/NotificationDetailsPage.java:7: error: cannot find symbol
+    public NotificationDetailsPage(WebDriver driver) {
+                                   ^
+  symbol:   class WebDriver
+  location: class NotificationDetailsPage
+src/main/java/pages/NotificationDetailsPage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/main/java/pages/QueryPage.java:7: error: cannot find symbol
+    public QueryPage(WebDriver driver) {
+                     ^
+  symbol:   class WebDriver
+  location: class QueryPage
+src/main/java/pages/QueryPage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/main/java/pages/ResultsPage.java:4: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/main/java/pages/ResultsPage.java:9: error: cannot find symbol
+    public ResultsPage(WebDriver driver) {
+                       ^
+  symbol:   class WebDriver
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/main/java/tests/BaseTest.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/main/java/tests/BaseTest.java:9: error: cannot find symbol
+    protected static WebDriver driver;
+                     ^
+  symbol:   class WebDriver
+  location: class BaseTest
+src/main/java/utils/DriverFactory.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/main/java/utils/DriverFactory.java:4: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/main/java/utils/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src/main/java/utils/DriverFactory.java:12: error: cannot find symbol
+    private static WebDriver driver;
+                   ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/main/java/utils/DriverFactory.java:15: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/main/java/utils/ExcelHelper.java:3: error: package org.jsoup does not exist
+import org.jsoup.Jsoup;
+                ^
+src/main/java/utils/ExcelHelper.java:4: error: package org.jsoup.nodes does not exist
+import org.jsoup.nodes.Document;
+                      ^
+src/main/java/utils/ExcelHelper.java:5: error: package org.jsoup.nodes does not exist
+import org.jsoup.nodes.Element;
+                      ^
+src/main/java/utils/ExcelHelper.java:6: error: package org.jsoup.select does not exist
+import org.jsoup.select.Elements;
+                       ^
+src/main/java/utils/ExcelHelper.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/main/java/utils/ExcelHelper.java:13: error: cannot find symbol
+    private final WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class ExcelHelper
+src/main/java/utils/ExcelHelper.java:15: error: cannot find symbol
+    public ExcelHelper(WebDriver driver) {
+                       ^
+  symbol:   class WebDriver
+  location: class ExcelHelper
+src/test/java/steps/KapSteps.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/steps/KapSteps.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/steps/KapSteps.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/steps/KapSteps.java:7: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/test/java/steps/KapSteps.java:8: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/test/java/steps/KapSteps.java:22: error: cannot find symbol
+    WebDriver driver = getDriver();
+    ^
+  symbol:   class WebDriver
+  location: class KapSteps
+src/main/java/pages/BasePage.java:21: error: cannot find symbol
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                        ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+src/main/java/pages/BasePage.java:29: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BasePage
+src/main/java/pages/BasePage.java:34: error: cannot find symbol
+            By locator = locatorReader.get(key);
+            ^
+  symbol:   class By
+  location: class BasePage
+src/main/java/pages/BasePage.java:35: error: cannot find symbol
+            wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class BasePage
+src/main/java/pages/BasePage.java:44: error: cannot find symbol
+        By locator = By.xpath(finalXpath);
+        ^
+  symbol:   class By
+  location: class BasePage
+src/main/java/pages/BasePage.java:44: error: cannot find symbol
+        By locator = By.xpath(finalXpath);
+                     ^
+  symbol:   variable By
+  location: class BasePage
+src/main/java/pages/BasePage.java:53: error: cannot find symbol
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+          ^
+  symbol:   class JavascriptExecutor
+  location: class BasePage
+src/main/java/pages/BasePage.java:58: error: cannot find symbol
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+              ^
+  symbol:   class JavascriptExecutor
+  location: class BasePage
+src/main/java/pages/BasePage.java:59: error: cannot find symbol
+            wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class BasePage
+src/main/java/pages/BasePage.java:66: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        ^
+  symbol:   class WebElement
+  location: class BasePage
+src/main/java/pages/BasePage.java:66: error: cannot find symbol
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+                                        ^
+  symbol:   variable ExpectedConditions
+  location: class BasePage
+src/main/java/pages/BasePage.java:71: error: cannot find symbol
+        By locator = getLocator(key);
+        ^
+  symbol:   class By
+  location: class BasePage
+src/main/java/utils/ElementLocatorReader.java:16: error: cannot find symbol
+            ObjectMapper mapper = new ObjectMapper();
+            ^
+  symbol:   class ObjectMapper
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:16: error: cannot find symbol
+            ObjectMapper mapper = new ObjectMapper();
+                                      ^
+  symbol:   class ObjectMapper
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:24: error: cannot find symbol
+                List<Map<String, String>> elements = mapper.readValue(inputStream, new TypeReference<>() {});
+                                                                                       ^
+  symbol:   class TypeReference
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:30: error: cannot find symbol
+                    By by = switch (type.toLowerCase()) {
+                    ^
+  symbol:   class By
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:31: error: cannot find symbol
+                        case "css" -> By.cssSelector(value);
+                                      ^
+  symbol:   variable By
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:32: error: cannot find symbol
+                        case "xpath" -> By.xpath(value);
+                                        ^
+  symbol:   variable By
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:33: error: cannot find symbol
+                        case "id" -> By.id(value);
+                                     ^
+  symbol:   variable By
+  location: class ElementLocatorReader
+src/main/java/utils/ElementLocatorReader.java:34: error: cannot find symbol
+                        case "name" -> By.name(value);
+                                       ^
+  symbol:   variable By
+  location: class ElementLocatorReader
+src/main/java/pages/QueryPage.java:21: error: cannot find symbol
+        clickByLocator(By.xpath(yearXpath));
+                       ^
+  symbol:   variable By
+  location: class QueryPage
+src/main/java/pages/QueryPage.java:25: error: cannot find symbol
+        clickByLocator(By.xpath(monthXpath));
+                       ^
+  symbol:   variable By
+  location: class QueryPage
+src/main/java/pages/QueryPage.java:28: error: cannot find symbol
+        clickByLocator(By.xpath(dayXpath));
+                       ^
+  symbol:   variable By
+  location: class QueryPage
+src/main/java/pages/ResultsPage.java:14: error: cannot find symbol
+        By loading = getLocator("loadingIndicator");
+        ^
+  symbol:   class By
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:15: error: cannot find symbol
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(loading));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:23: error: cannot find symbol
+        By rowLocator = By.xpath(finalXpath);
+        ^
+  symbol:   class By
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:23: error: cannot find symbol
+        By rowLocator = By.xpath(finalXpath);
+                        ^
+  symbol:   variable By
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:25: error: cannot find symbol
+        List<WebElement> rows = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(rowLocator));
+             ^
+  symbol:   class WebElement
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:25: error: cannot find symbol
+        List<WebElement> rows = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(rowLocator));
+                                           ^
+  symbol:   variable ExpectedConditions
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:27: error: cannot find symbol
+        for (WebElement row : rows) {
+             ^
+  symbol:   class WebElement
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:28: error: cannot find symbol
+                WebElement cell = row.findElement(getLocator("clickableCellInRow"));
+                ^
+  symbol:   class WebElement
+  location: class ResultsPage
+src/main/java/pages/ResultsPage.java:32: error: cannot find symbol
+        throw new NotFoundException("'" + text + "' içeren satır bulunamadı.");
+                  ^
+  symbol:   class NotFoundException
+  location: class ResultsPage
+src/main/java/utils/DriverFactory.java:24: error: cannot find symbol
+            ChromeOptions options = new ChromeOptions();
+            ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/main/java/utils/DriverFactory.java:24: error: cannot find symbol
+            ChromeOptions options = new ChromeOptions();
+                                        ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/main/java/utils/DriverFactory.java:27: error: cannot find symbol
+            driver = new ChromeDriver(options);
+                         ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src/main/java/utils/ExcelHelper.java:42: error: cannot find symbol
+            Document doc = Jsoup.parse(file, "UTF-8");
+            ^
+  symbol:   class Document
+  location: class ExcelHelper
+src/main/java/utils/ExcelHelper.java:42: error: cannot find symbol
+            Document doc = Jsoup.parse(file, "UTF-8");
+                           ^
+  symbol:   variable Jsoup
+  location: class ExcelHelper
+src/main/java/utils/ExcelHelper.java:43: error: cannot find symbol
+            Elements rows = doc.select("table tr");
+            ^
+  symbol:   class Elements
+  location: class ExcelHelper
+src/main/java/utils/ExcelHelper.java:45: error: cannot find symbol
+            for (Element row : rows) {
+                 ^
+  symbol:   class Element
+  location: class ExcelHelper
+src/main/java/utils/ExcelHelper.java:46: error: cannot find symbol
+                Elements cells = row.select("td, th");
+                ^
+  symbol:   class Elements
+  location: class ExcelHelper
+src/main/java/utils/ExcelHelper.java:48: error: cannot find symbol
+                for (Element cell : cells) {
+                     ^
+  symbol:   class Element
+  location: class ExcelHelper
+src/test/java/steps/KapSteps.java:36: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        ^
+  symbol:   class WebDriverWait
+  location: class KapSteps
+src/test/java/steps/KapSteps.java:36: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                                 ^
+  symbol:   class WebDriverWait
+  location: class KapSteps
+src/test/java/steps/KapSteps.java:37: error: cannot find symbol
+        boolean urlMatches = wait.until(ExpectedConditions.urlToBe(expectedUrl));
+                                        ^
+  symbol:   variable ExpectedConditions
+  location: class KapSteps
+src/test/java/steps/KapSteps.java:59: error: reference to scrollAndClick is ambiguous
+        queryPage.scrollAndClick(buttonLabel);
+                 ^
+  both method scrollAndClick(WebElement) in BasePage and method scrollAndClick(By) in BasePage match
+src/test/java/steps/KapSteps.java:86: error: cannot find symbol
+        WebDriver driver = getDriver(); // BaseTest üzerinden al
+        ^
+  symbol:   class WebDriver
+  location: class KapSteps
+src/test/java/steps/KapSteps.java:100: error: cannot find symbol
+        WebElement webTableCell = driver.findElement(By.cssSelector("table tbody tr:nth-of-type(1) td:nth-of-type(1)"));
+        ^
+  symbol:   class WebElement
+  location: class KapSteps
+src/test/java/steps/KapSteps.java:100: error: cannot find symbol
+        WebElement webTableCell = driver.findElement(By.cssSelector("table tbody tr:nth-of-type(1) td:nth-of-type(1)"));
+                                                     ^
+  symbol:   variable By
+  location: class KapSteps
+92 errors

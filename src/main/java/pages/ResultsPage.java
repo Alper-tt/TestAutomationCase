@@ -7,7 +7,7 @@ import java.util.List;
 public class ResultsPage extends BasePage {
 
     public ResultsPage(WebDriver driver) {
-        super(driver, "ResultsPage");
+        super(driver);
     }
 
     public void waitUntilResultsLoaded() {
@@ -26,7 +26,7 @@ public class ResultsPage extends BasePage {
 
         for (WebElement row : rows) {
                 WebElement cell = row.findElement(getLocator("clickableCellInRow"));
-                scrollAndClick(cell);
+                clickWithJS(cell);
             return;
         }
         throw new NotFoundException("'" + text + "' içeren satır bulunamadı.");

@@ -1,37 +1,38 @@
 package steps;
 
-import com.thoughtworks.gauge.BeforeScenario;
 import com.thoughtworks.gauge.Step;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.KapHomePage;
-import pages.NotificationDetailsPage;
-import pages.ResultsPage;
-import pages.QueryPage;
-import utils.DriverFactory;
-import utils.DownloadChecker;
+import pages.*;
+import tests.BaseTest;
+import utils.*;
 
+import java.io.File;
 import java.time.Duration;
+import java.util.Locale;
+import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static utils.DriverFactory.getDriver;
 
-public class KapSteps {
+public class KapSteps extends BaseTest {
 
-    WebDriver driver = DriverFactory.getDriver();
+    WebDriver driver = getDriver();
+    BasePage basePage = new BasePage(driver);
     KapHomePage homePage = new KapHomePage(driver);
     QueryPage queryPage = new QueryPage(driver);
     ResultsPage resultsPage = new ResultsPage(driver);
-    NotificationDetailsPage notificationDetailsPage = new NotificationDetailsPage(driver);
 
-    @BeforeScenario
-    public void before() {
-        DriverFactory.clearDownloadDir();
+    @Step("Tarayıcı boyutu <width>x<height> olarak ayarlanır")
+    public void resizeBrowser(int width, int height) {
+        driver.manage().window().setSize(new Dimension(width, height));
     }
-
     @Step("<url> adresine gidilir")
     public void navigateToUrl(String url) {
         driver.get(url);
+        // web sitesine yönlendirir
     }
 
     @Step("Sayfanın URL'si <expectedUrl> olmalı")
@@ -42,39 +43,25 @@ public class KapSteps {
                 .isTrue();
     }
 
-    @Step("<menuKey> menüsüne tıklanır")
-    public void clickMenu(String menuKey) {
-        homePage.clickMenu(menuKey);
+    @Step("<button> elementine tıklanır")
+    public void clickButton(String buttonLabel) {
+        homePage.clickByKey(buttonLabel);
     }
 
-    @Step("<submenuKey> seçilir")
-    public void clickSubMenu(String submenuKey) {
-        homePage.clickSubMenu(submenuKey);
+    @Step("<locator> locatöründen <param> parametresiyle seçim yapılır")
+    public void clickDynamicElement(String locator, String param) {
+        basePage.clickDynamicElement(locator,param);
     }
 
-    @Step("<tab> sekmesi seçilir")
-    public void selectTab(String tabName) {
-        queryPage.clickTab(tabName);
-    }
-
-    @Step("<dropdown> açılır menüsü tıklanır")
-    public void openDropdown(String dropdownKey) {
-        queryPage.clickDropdown(dropdownKey);
-    }
-
-    @Step("<group> grubu açılır menüden seçilir")
-    public void selectDropdownOption(String optionText) {
-        queryPage.selectDropdownOption(optionText);
-    }
 
     @Step("Tarih olarak <date> girilir")
     public void enterDateAndClickButton(String date) {
         queryPage.selectStartDate(date);
     }
 
-    @Step("<button> butonuna tıklanır")
-    public void clickSearchButton(String buttonLabel) {
-        queryPage.clickButton(buttonLabel);
+    @Step("<button> elementine JS ile tıklanır")
+    public void JsClickButton(String buttonLabel) {
+        queryPage.scrollAndClick(buttonLabel);
     }
 
     @Step("<text> içeren ilk satıra tıklanır")
@@ -91,11 +78,6 @@ public class KapSteps {
                 .contains(pathPrefix);
     }
 
-    @Step("<format> dosyası indirilir")
-    public void clickExcelDownloadButton(String format) {
-        notificationDetailsPage.clickDownloadButton(format);
-    }
-
     @Step("<format> dosyası <expectedFileName> olarak indirilmiş olmalı")
     public void checkExcelDownloaded(String format, String expectedFileName) throws InterruptedException {
         String filePath = DriverFactory.getDownloadDir() + "/" + expectedFileName;
@@ -103,7 +85,57 @@ public class KapSteps {
         assertThat(isDownloaded)
                 .as("Dosya belirtilen sürede indirilemedi: %s", expectedFileName)
                 .isTrue();
-        driver.quit();
+    }
+
+    private String normalize(String text) {
+        if (text == null) return "";
+        return text
+                .replace("\u00A0", " ")               // non-breaking space (&nbsp;)
+                .replaceAll("[\\n\\r\\t]", " ")       // newline, tab, carriage return
+                .replaceAll("\\s+", " ")              // multiple spaces to single space
+                .replaceAll("(?i)[ ]+(\\p{Punct})", "$1") // boşluk+noktalama → sadece noktalama
+                .trim()
+                .toLowerCase(Locale.ROOT);
+    }
+
+    @Step("XLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır <htmlPath>")
+    public void compareHtmlWithWeb(String htmlPath) throws Exception {
+
+        Map<String, String> htmlData = KapHtmlParser.parseHtml(new File(htmlPath));
+        Map<String, String> webData = new NotificationDetailsPage(driver).extractWebData();
+
+        for (String key : htmlData.keySet()) {
+            if (webData.containsKey(key)) {
+                String expected = htmlData.get(key);
+                String actual = webData.get(key);
+
+                if (key.equalsIgnoreCase("Açıklama")) {
+                    String normExpected = normalize(expected);
+                    String normActual = normalize(actual);
+
+                    boolean matches = normActual.contains(normExpected) || normExpected.contains(normActual);
+
+                    assertThat(matches)
+                            .as("Alan uyuşmazlığı: " + key + "\nBeklenen:\n" + normExpected + "\nGerçek:\n" + normActual)
+                            .isTrue();
+                }else {
+                    assertThat(actual)
+                            .as("Alan uyuşmazlığı: " + key)
+                            .contains(expected);
+                }
+
+            } else {
+                System.out.println("❌ Web sayfasında bulunamayan alan: " + key);
+                throw new Exception("HTML'de bulunmayan alan: " + key);
+            }
+        }
+
+        for (String key : webData.keySet()) {
+            if (!htmlData.containsKey(key)) {
+                System.out.println("⚠️ HTML'de bulunmayan alan: " + key);
+                throw new Exception("HTML'de bulunmayan alan: " + key);
+            }
+        }
     }
 
 }

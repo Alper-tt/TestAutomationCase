@@ -37,5 +37,10 @@
     "key": "submenuLink_KalemSorgulama",
     "value": "a[href='/tr/kalem-karsilastirma']",
     "type": "css"
+  },
+  {
+    "key": "btn_Hamburger",
+    "value": "button.mobile-menu-button",
+    "type": "css"
   }
 ]

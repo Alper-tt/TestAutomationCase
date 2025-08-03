@@ -1,7 +1,7 @@
 [
   {
     "key": "btn_File_Download_Generic",
-    "value": "//a[contains(@href, '/export/%s')]",
+    "value": "//a[contains(@href, '/expot/%s')]",
     "type": "xpath"
   }
 ]

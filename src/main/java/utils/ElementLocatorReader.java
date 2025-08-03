@@ -11,34 +11,40 @@ public class ElementLocatorReader {
     private final Map<String, By> locatorMap = new HashMap<>();
     private final Map<String, String> rawValueMap = new HashMap<>();
 
-    public ElementLocatorReader(String jsonFileName) {
+    public ElementLocatorReader(String... jsonFileNames) {
         try {
-            InputStream inputStream = getClass().getClassLoader().getResourceAsStream("elements/" + jsonFileName);
-            if (inputStream == null) {
-                throw new RuntimeException("JSON dosyası bulunamadı: " + jsonFileName);
-            }
-
             ObjectMapper mapper = new ObjectMapper();
-            List<Map<String, String>> elements = mapper.readValue(inputStream, new TypeReference<>() {});
 
-            for (Map<String, String> item : elements) {
-                String key = item.get("key");
-                String value = item.get("value");
-                String type = item.get("type");
+            for (String jsonFileName : jsonFileNames) {
+                InputStream inputStream = getClass().getClassLoader().getResourceAsStream("elements/" + jsonFileName);
+                if (inputStream == null) {
+                    throw new RuntimeException("JSON dosyası bulunamadı: " + jsonFileName);
+                }
 
-                By by = switch (type.toLowerCase()) {
-                    case "css" -> By.cssSelector(value);
-                    case "xpath" -> By.xpath(value);
-                    case "id" -> By.id(value);
-                    case "name" -> By.name(value);
-                    default -> throw new IllegalArgumentException("Desteklenmeyen locator tipi: " + type);
-                };
+                List<Map<String, String>> elements = mapper.readValue(inputStream, new TypeReference<>() {});
+                for (Map<String, String> item : elements) {
+                    String key = item.get("key");
+                    String value = item.get("value");
+                    String type = item.get("type");
 
-                locatorMap.put(key, by);
-                rawValueMap.put(key, value); // yeni eklendi
+                    By by = switch (type.toLowerCase()) {
+                        case "css" -> By.cssSelector(value);
+                        case "xpath" -> By.xpath(value);
+                        case "id" -> By.id(value);
+                        case "name" -> By.name(value);
+                        default -> throw new IllegalArgumentException("Desteklenmeyen locator tipi: " + type);
+                    };
+
+                    if (locatorMap.containsKey(key)) {
+                        System.out.println("Aynı key birden fazla JSON dosyasında bulundu: " + key);
+                    }
+
+                    locatorMap.put(key, by);
+                    rawValueMap.put(key, value);
+                }
             }
         } catch (Exception e) {
-            throw new RuntimeException("Element JSON dosyası okunurken hata oluştu: " + jsonFileName, e);
+            throw new RuntimeException("Element JSON dosyaları okunurken hata oluştu.", e);
         }
     }
 

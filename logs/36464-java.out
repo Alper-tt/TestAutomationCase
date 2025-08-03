@@ -1,0 +1,61 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 452milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 452"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64982"}
+{"logLevel":"info","message":"Listening on port:64982"}
+[pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 1014 ms to scan 89 urls, producing 8031 keys and 42518 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.checkCurrentUrl' and 'steps.KapSteps.checkCurrentUrl'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} olmalı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.bildirimSatiriKarsilastir' and 'steps.KapSteps.bildirimSatiriKarsilastir'"}
+{"logLevel":"debug","message":"Found Excel ve detay sayfasındaki bildirim hücre içeriği karşılaştırılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.navigateToUrl' and 'steps.KapSteps.navigateToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.clickDynamicElement' and 'steps.KapSteps.clickDynamicElement'"}
+{"logLevel":"debug","message":"Found {} locatöründen {} parametresiyle seçim yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.clickButton' and 'steps.KapSteps.clickButton'"}
+{"logLevel":"debug","message":"Found {} elementine tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.JsClickButton' and 'steps.KapSteps.JsClickButton'"}
+{"logLevel":"debug","message":"Found {} elementine JS ile tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.clickFirstRowContainingText' and 'steps.KapSteps.clickFirstRowContainingText'"}
+{"logLevel":"debug","message":"Found {} içeren ilk satıra tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.urlShouldStartWith' and 'steps.KapSteps.urlShouldStartWith'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} içermeli in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.enterDateAndClickButton' and 'steps.KapSteps.enterDateAndClickButton'"}
+{"logLevel":"debug","message":"Found Tarih olarak {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapSteps.checkExcelDownloaded' and 'steps.KapSteps.checkExcelDownloaded'"}
+{"logLevel":"debug","message":"Found {} dosyası {} olarak indirilmiş olmalı in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementine JS ile tıklanır : public void JsClickButton(String buttonLabel)"}
+{"logLevel":"debug","message":"\tExcel ve detay sayfasındaki bildirim hücre içeriği karşılaştırılır : public void bildirimSatiriKarsilastir()"}
+{"logLevel":"debug","message":"\tSayfanın URL'si {} olmalı : public void checkCurrentUrl(String expectedUrl)"}
+{"logLevel":"debug","message":"\t{} içeren ilk satıra tıklanır : public void clickFirstRowContainingText(String text)"}
+{"logLevel":"debug","message":"\t{} elementine tıklanır : public void clickButton(String buttonLabel)"}
+{"logLevel":"debug","message":"\t{} adresine gidilir : public void navigateToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} locatöründen {} parametresiyle seçim yapılır : public void clickDynamicElement(String locator, String param)"}
+{"logLevel":"debug","message":"\tTarih olarak {} girilir : public void enterDateAndClickButton(String date)"}
+{"logLevel":"debug","message":"\tSayfanın URL'si {} içermeli : public void urlShouldStartWith(String pathPrefix)"}
+{"logLevel":"debug","message":"\t{} dosyası {} olarak indirilmiş olmalı : public void checkExcelDownloaded(String format, String expectedFileName) throws InterruptedException"}
+[pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 300 ms to scan 89 urls, producing 7942 keys and 31807 values
+before suite
+{"logLevel":"debug","message":"Executing '{} adresine gidilir' using 'class steps.KapSteps.navigateToUrl"}
+{"logLevel":"debug","message":"Executing 'Sayfanın URL'si {} olmalı' using 'class steps.KapSteps.checkCurrentUrl"}
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapSteps.clickButton"}
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapSteps.clickButton"}
+{"logLevel":"debug","message":"Executing 'Sayfanın URL'si {} olmalı' using 'class steps.KapSteps.checkCurrentUrl"}
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapSteps.clickButton"}
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapSteps.clickButton"}
+{"logLevel":"debug","message":"Executing '{} locatöründen {} parametresiyle seçim yapılır' using 'class steps.KapSteps.clickDynamicElement"}
+{"logLevel":"debug","message":"Executing 'Tarih olarak {} girilir' using 'class steps.KapSteps.enterDateAndClickButton"}
+{"logLevel":"debug","message":"Executing '{} elementine JS ile tıklanır' using 'class steps.KapSteps.JsClickButton"}
+{"logLevel":"debug","message":"Executing '{} içeren ilk satıra tıklanır' using 'class steps.KapSteps.clickFirstRowContainingText"}
+{"logLevel":"debug","message":"Executing 'Sayfanın URL'si {} içermeli' using 'class steps.KapSteps.urlShouldStartWith"}
+{"logLevel":"debug","message":"Executing '{} locatöründen {} parametresiyle seçim yapılır' using 'class steps.KapSteps.clickDynamicElement"}
+{"logLevel":"debug","message":"Executing '{} dosyası {} olarak indirilmiş olmalı' using 'class steps.KapSteps.checkExcelDownloaded"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
