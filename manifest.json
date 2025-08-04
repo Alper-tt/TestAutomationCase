@@ -2,7 +2,6 @@
   "Language": "java",
   "Plugins": [
     "html-report",
-    "allure",
     "xml-report"
   ],
   "EnvironmentDir": ""

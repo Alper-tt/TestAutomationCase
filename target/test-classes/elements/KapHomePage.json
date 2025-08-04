@@ -1,45 +1,46 @@
 [
   {
-    "key": "menuBtn_BildirimSorgulari",
+    "key": "BTN_BILDIRIM_SORGULARI",
     "value": "Bildirim Sorguları0",
     "type": "id"
   },
   {
-    "key": "menuBtn_Sirketler",
+    "key": "BTN_SIRKETLER",
     "value": "Şirketler1",
     "type": "id"
   },
   {
-    "key": "menuBtn_Fonlar",
+    "key": "BTN_FONLAR",
     "value": "Fonlar2",
     "type": "id"
-  },  {
-    "key": "menuBtn_KapHakkında",
+  },
+  {
+    "key": "BTN_KAP_HAKKINDA",
     "value": "KAP Hakkında3",
     "type": "id"
   },
   {
-    "key": "submenuLink_BugunGelenBildirimler",
+    "key": "BTN_BUGUN_GELEN_BILDIRIMLER",
     "value": "a[href='/tr/']",
     "type": "css"
   },
   {
-    "key": "submenuLink_BeklenenBildirimler",
+    "key": "BTN_BEKLENEN_BILDIRIMLER",
     "value": "a[href='/tr/beklenen-bildirim-sorgu']",
     "type": "css"
   },
   {
-    "key": "submenuLink_DetayliSorgulama",
+    "key": "BTN_DETAYLI_SORGULAMA",
     "value": "a[href='/tr/bildirim-sorgu']",
     "type": "css"
   },
   {
-    "key": "submenuLink_KalemSorgulama",
+    "key": "BTN_KALEM_KARSILASTIRMA",
     "value": "a[href='/tr/kalem-karsilastirma']",
     "type": "css"
   },
   {
-    "key": "btn_Hamburger",
+    "key": "BTN_MOBILE_MENU",
     "value": "button.mobile-menu-button",
     "type": "css"
   }

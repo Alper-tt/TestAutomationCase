@@ -4,20 +4,24 @@ public class AllureReportGenerator {
 
     public static void generateReport() {
         try {
+            LogUtil.logger.info("Allure raporu oluşturuluyor...");
             Process process = new ProcessBuilder("allure", "generate", "reports/xml-report", "--clean", "-o", "allure-report")
                     .start();
+
             int exitCode = process.waitFor();
+
             if (exitCode == 0) {
-                System.out.println("Allure raporu başarıyla oluşturuldu.");
+                LogUtil.logger.info("Allure raporu başarıyla oluşturuldu.");
             } else {
-                System.err.println("Allure raporu oluşturulamadı.");
+                LogUtil.logger.error("Allure raporu oluşturulamadı");
             }
 
+            // Allure raporunu otomatik açmak istersek:
             // new ProcessBuilder("allure", "open", "allure-report").start();
 
         } catch (Exception e) {
-            System.err.println("Allure raporu oluşturulurken hata oluştu:");
-            e.printStackTrace();
+            LogUtil.logger.error("Allure raporu oluşturulurken hata oluştu.", e);
         }
     }
+
 }

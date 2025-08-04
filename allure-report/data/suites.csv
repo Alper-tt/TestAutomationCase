@@ -1,3 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","9813","Scenario: Mobil Web arayüzü için QNB bildirimi detaylı arama ve Excel kontrolü","","Sun Aug 03 19:16:01 GMT+03:00 2025","passed","Sun Aug 03 19:16:10 GMT+03:00 2025","","Specification: KAP Bildirim Testi","Specification: KAP Bildirim Testi",""
-"","10162","Scenario: Masaüstü Web arayüzü için QNB bildirimi detaylı arama ve Excel kontrolü","","Sun Aug 03 19:16:01 GMT+03:00 2025","passed","Sun Aug 03 19:16:11 GMT+03:00 2025","","Specification: KAP Bildirim Testi","Specification: KAP Bildirim Testi",""
+"","19196","Scenario: Masaüstü Web arayüzü için QNB bildirimi detaylı arama ve Excel kontrolü","","Mon Aug 04 17:51:27 GMT+03:00 2025","failed","Mon Aug 04 17:51:46 GMT+03:00 2025","","Specification: KAP Bildirim Testi","Specification: KAP Bildirim Testi",""

@@ -1,40 +1,31 @@
 package pages;
 
 import org.openqa.selenium.*;
+import utils.LogUtil;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class NotificationDetailsPage extends BasePage{
+public class NotificationDetailsPage extends BasePage {
 
     public NotificationDetailsPage(WebDriver driver) {
         super(driver);
     }
-    public Map<String, String> extractWebData() {
-        Map<String, String> result = new LinkedHashMap<>();
 
-        List<WebElement> rows = driver.findElements(By.cssSelector("tr.data-input-row"));
 
-        for (WebElement row : rows) {
-            try {
-                WebElement questionElement = row.findElement(By.cssSelector(".taxonomy-field-title .gwt-Label"));
-                WebElement valueElement = row.findElement(By.cssSelector(".taxonomy-context-value .gwt-Label"));
-
-                String question = questionElement.getText().trim();
-                String value = valueElement.getText().trim();
-
-                result.put(question, value);
-            } catch (NoSuchElementException e) {
-                // Bazı satırlarda boş olabilir
-            }
-        }
-
+    public void clickFileFormat(String param) {
         try {
-            WebElement explanation = driver.findElement(By.cssSelector(".text-block-value"));
-            result.put("Açıklama", explanation.getText().trim());
-        } catch (NoSuchElementException ignored) {}
-
-        return result;
+            LogUtil.logger.info("'{}' parametresi ile dosya indirme butonuna tıklanıyor...", param);
+            String rawXpath = getLocatorRaw("BTN_FILE_DOWNLOAD_GENERIC");
+            String finalXpath = String.format(rawXpath, param);
+            By locator = By.xpath(finalXpath);
+            clickByLocator(locator);
+            LogUtil.logger.info("Dosya indirme butonuna başarıyla tıklandı.");
+        } catch (Exception e) {
+            LogUtil.logger.error("'{}' parametresi ile dosya indirme butonuna tıklanırken hata oluştu.", param, e);
+            throw new RuntimeException("Dosya indirme tıklama hatası: " + param, e);
+        }
     }
+
 }

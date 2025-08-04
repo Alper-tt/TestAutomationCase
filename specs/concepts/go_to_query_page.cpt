@@ -1,0 +1,5 @@
+# Detaylı sorgulama sayfasına git
+
+* "BTN_BILDIRIM_SORGULARI" elementine tıklanır
+* "BTN_DETAYLI_SORGULAMA" elementine tıklanır
+* Sayfanın URL'si "https://www.kap.org.tr/tr/bildirim-sorgu" olmalı

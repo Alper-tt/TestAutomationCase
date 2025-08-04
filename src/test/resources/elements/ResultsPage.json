@@ -1,16 +1,16 @@
 [
   {
-    "key": "loadingIndicator",
+    "key": "PROGRESS_INDICATOR",
     "value": ".progress-indicator",
     "type": "css"
   },
   {
-    "key": "resultRow_Generic",
+    "key": "ROW_CONTAINING_TEXT",
     "value": "//tr[contains(@class, 'cursor-pointer') and contains(., '%s')]",
     "type": "xpath"
   },
   {
-    "key": "clickableCellInRow",
+    "key": "CLICKABLE_CELL_IN_ROW",
     "value": "td[name='notification-navigation']",
     "type": "css"
   }

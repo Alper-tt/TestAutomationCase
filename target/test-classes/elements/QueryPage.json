@@ -1,51 +1,51 @@
 [
   {
-    "key": "tabBtn_SirketBildirimi",
+    "key": "BTN_SIRKET_BILDIRIMI",
     "value": "//button[text()='Şirket Bildirimi']",
     "type": "xpath"
   },
   {
-    "key": "tabBtn_FonBildirimi",
-    "value": "//button[text()='Fon Bildirimi']",
+    "key": "BTN_FON_BILDIRIMI",
+    "value": "//ul[@id='detailed-inquiry']//li[@role='presentation']//button[text()='Fon Bildirimi']",
     "type": "xpath"
   },
   {
-    "key": "dropdownToggle_SirketGrubu",
+    "key": "SELECT_BOX_COMPANY_GROUP",
     "value": "//div[label[text()='Şirket Grubu']]//div[contains(@class, 'custom-select-toggle')]",
     "type": "xpath"
   },
   {
-    "key": "dropdownOption_Generic",
+    "key": "DROPDOWN_MENU_GENERIC",
     "value": "//div[contains(@class, 'select-option') and text()='%s']",
     "type": "xpath"
   },
   {
-    "key": "datepickerButton_BaslangicTarihi",
+    "key": "DATE_PICKER_BASLANGIC_TARIHI",
     "value": "//label[text()='Başlangıç Tarihi']/following-sibling::div",
     "type": "xpath"
   },
   {
-    "key": "switchToYearButton",
+    "key": "BTN_SWITCH_TO_YEAR_VIEW",
     "value": "//button[contains(@aria-label,'switch to year view')]",
     "type": "xpath"
   },
   {
-    "key": "yearButton_Generic",
+    "key": "BTN_SELECT_YEAR",
     "value": "//button[text()='%s']",
     "type": "xpath"
   },
   {
-    "key": "monthButton_Generic",
+    "key": "BTN_SELECT_MONTH",
     "value": "//button[contains(@aria-label, '%s') or text()[contains(.,'%s')]]",
     "type": "xpath"
   },
   {
-    "key": "dayButton_Generic",
+    "key": "BTN_SELECT_DAY",
     "value": "//button[normalize-space(.)='%s' and not(@disabled)]",
     "type": "xpath"
   },
   {
-    "key": "button_Ara",
+    "key": "BTN_ARA",
     "value": "//button[text()='Ara']",
     "type": "xpath"
   }

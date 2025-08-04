@@ -1,0 +1,213 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 622milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 622"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52407"}
+{"logLevel":"info","message":"Listening on port:52407"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'steps.QueryImpl.enterDateAndClickButton' and 'steps.QueryImpl.enterDateAndClickButton'"}
+{"logLevel":"debug","message":"Found Tablodaki veriyi tarih alanina gir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.NotificationDetailsImpl.clickFileFormat' and 'steps.NotificationDetailsImpl.clickFileFormat'"}
+{"logLevel":"debug","message":"Found İndirilecek dosya formatı {} seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ResultImpl.clickFirstRowContainingText' and 'steps.ResultImpl.clickFirstRowContainingText'"}
+{"logLevel":"debug","message":"Found {} içeren ilk satıra tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapImpl.navigateToUrl' and 'steps.KapImpl.navigateToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.NotificationDetailsImpl.urlShouldStartWith' and 'steps.NotificationDetailsImpl.urlShouldStartWith'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} içermeli in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.QueryImpl.clickCompanyGroup' and 'steps.QueryImpl.clickCompanyGroup'"}
+{"logLevel":"debug","message":"Found Sirket grubu menüsünden {} seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapImpl.checkCurrentUrl' and 'steps.KapImpl.checkCurrentUrl'"}
+{"logLevel":"debug","message":"Found Sayfanın URL'si {} olmalı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.QueryImpl.JsClickButton' and 'steps.QueryImpl.JsClickButton'"}
+{"logLevel":"debug","message":"Found {} elementine JS ile tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapImpl.resizeBrowser' and 'steps.KapImpl.resizeBrowser'"}
+{"logLevel":"debug","message":"Found Tarayıcı boyutu {}x{} olarak ayarlanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.NotificationDetailsImpl.checkExcelDownloaded' and 'steps.NotificationDetailsImpl.checkExcelDownloaded'"}
+{"logLevel":"debug","message":"Found {} dosyası {} olarak indirilmiş olmalı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.NotificationDetailsImpl.compareHtmlWithWeb' and 'steps.NotificationDetailsImpl.compareHtmlWithWeb'"}
+{"logLevel":"debug","message":"Found XLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapImpl.clickButton' and 'steps.KapImpl.clickButton'"}
+{"logLevel":"debug","message":"Found {} elementine tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.KapImpl.clearDownloadDir' and 'steps.KapImpl.clearDownloadDir'"}
+{"logLevel":"debug","message":"Found Dosya indirme dizinini temizle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tTarayıcı boyutu {}x{} olarak ayarlanır : public void resizeBrowser(int width, int height)"}
+{"logLevel":"debug","message":"\tSayfanın URL'si {} olmalı : public void checkCurrentUrl(String expectedUrl)"}
+{"logLevel":"debug","message":"\t{} içeren ilk satıra tıklanır : public void clickFirstRowContainingText(String text)"}
+{"logLevel":"debug","message":"\t{} elementine tıklanır : public void clickButton(String buttonLabel)"}
+{"logLevel":"debug","message":"\tSayfanın URL'si {} içermeli : public void urlShouldStartWith(String pathPrefix)"}
+{"logLevel":"debug","message":"\tİndirilecek dosya formatı {} seçilir : public void clickFileFormat(String param)"}
+{"logLevel":"debug","message":"\t{} dosyası {} olarak indirilmiş olmalı : public void checkExcelDownloaded(String format, String expectedFileName) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSirket grubu menüsünden {} seç : public void clickCompanyGroup(String param)"}
+{"logLevel":"debug","message":"\t{} elementine JS ile tıklanır : public void JsClickButton(String buttonLabel)"}
+{"logLevel":"debug","message":"\tTablodaki veriyi tarih alanina gir {} : public void enterDateAndClickButton(Table date)"}
+{"logLevel":"debug","message":"\t{} adresine gidilir : public void navigateToUrl(String url)"}
+{"logLevel":"debug","message":"\tDosya indirme dizinini temizle : public void clearDownloadDir()"}
+{"logLevel":"debug","message":"\tXLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır {} : public void compareHtmlWithWeb(String htmlPath) throws Exception"}
+[17:51:42] [INFO ] KapTestLogger - Test suite başlatılıyor...
+[17:51:42] [INFO ] KapTestLogger - Yeni WebDriver örneği oluşturuluyor...
+[17:51:42] [INFO ] KapTestLogger - Indirme klasörü temizleniyor: /Users/alper/Desktop/TestAutomationCase/target/downloads
+[17:51:42] [INFO ] KapTestLogger - İndirme klasörü zaten mevcut: /Users/alper/Desktop/TestAutomationCase/target/downloads
+[17:51:43] [INFO ] KapTestLogger - WebDriver başarıyla başlatıldı.
+[17:51:43] [INFO ] KapTestLogger - Spec başlatılıyor...
+[17:51:43] [INFO ] KapTestLogger - Scenario başlatılıyor...
+{"logLevel":"debug","message":"Executing 'Dosya indirme dizinini temizle' using 'class steps.KapImpl.clearDownloadDir"}
+[17:51:43] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175143_218.png
+{"logLevel":"debug","message":"Executing 'Tarayıcı boyutu {}x{} olarak ayarlanır' using 'class steps.KapImpl.resizeBrowser"}
+[17:51:43] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175143_696.png
+{"logLevel":"debug","message":"Executing '{} adresine gidilir' using 'class steps.KapImpl.navigateToUrl"}
+[17:51:44] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175144_382.png
+{"logLevel":"debug","message":"Executing 'Sayfanın URL'si {} olmalı' using 'class steps.KapImpl.checkCurrentUrl"}
+[17:51:44] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175144_659.png
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapImpl.clickButton"}
+[17:51:44] [INFO ] KapTestLogger - 'BTN_BILDIRIM_SORGULARI' anahtarına karşılık gelen element tıklanıyor.
+[17:51:44] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:44] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175144_965.png
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapImpl.clickButton"}
+[17:51:44] [INFO ] KapTestLogger - 'BTN_DETAYLI_SORGULAMA' anahtarına karşılık gelen element tıklanıyor.
+[17:51:45] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:45] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175145_202.png
+{"logLevel":"debug","message":"Executing 'Sayfanın URL'si {} olmalı' using 'class steps.KapImpl.checkCurrentUrl"}
+[17:51:45] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175145_311.png
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapImpl.clickButton"}
+[17:51:45] [INFO ] KapTestLogger - 'BTN_SIRKET_BILDIRIMI' anahtarına karşılık gelen element tıklanıyor.
+[17:51:45] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:45] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175145_484.png
+{"logLevel":"debug","message":"Executing '{} elementine tıklanır' using 'class steps.KapImpl.clickButton"}
+[17:51:45] [INFO ] KapTestLogger - 'SELECT_BOX_COMPANY_GROUP' anahtarına karşılık gelen element tıklanıyor.
+[17:51:45] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:45] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175145_616.png
+{"logLevel":"debug","message":"Executing 'Sirket grubu menüsünden {} seç' using 'class steps.QueryImpl.clickCompanyGroup"}
+[17:51:45] [INFO ] KapTestLogger - 'İşlem Gören Şirketler' parametresi ile şirket grubu seçiliyor...
+[17:51:45] [INFO ] KapTestLogger - 'DROPDOWN_MENU_GENERIC' anahtarına karşılık gelen raw locator alınıyor.
+[17:51:45] [INFO ] KapTestLogger - Locator ile tıklama işlemi başlatılıyor: By.xpath: //div[contains(@class, 'select-option') and text()='İşlem Gören Şirketler']
+[17:51:45] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:45] [INFO ] KapTestLogger - Şirket grubu başarıyla seçildi: İşlem Gören Şirketler
+[17:51:45] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175145_737.png
+{"logLevel":"debug","message":"Executing 'Tablodaki veriyi tarih alanina gir {}' using 'class steps.QueryImpl.enterDateAndClickButton"}
+[17:51:45] [INFO ] KapTestLogger - Tarih seçme işlemi başlatıldı.
+[17:51:45] [INFO ] KapTestLogger - 'DATE_PICKER_BASLANGIC_TARIHI' anahtarına karşılık gelen element scroll ediliyor ve tıklanıyor.
+[17:51:45] [INFO ] KapTestLogger - 'DATE_PICKER_BASLANGIC_TARIHI' anahtarına karşılık gelen locator alınıyor.
+[17:51:45] [INFO ] KapTestLogger - Locator'a scroll ediliyor ve tıklanıyor: By.xpath: //label[text()='Başlangıç Tarihi']/following-sibling::div
+[17:51:45] [INFO ] KapTestLogger - Element scroll ediliyor ve tıklanıyor: [[ChromeDriver: chrome on mac (88802032756ef977215cf0ae1d533b85)] -> xpath: //label[text()='Başlangıç Tarihi']/following-sibling::div]
+[17:51:46] [INFO ] KapTestLogger - Scroll ve tıklama işlemi başarıyla tamamlandı.
+[17:51:46] [INFO ] KapTestLogger - 'BTN_SWITCH_TO_YEAR_VIEW' anahtarına karşılık gelen element tıklanıyor.
+[17:51:47] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:47] [INFO ] KapTestLogger - 'BTN_SELECT_YEAR' anahtarına karşılık gelen raw locator alınıyor.
+[17:51:47] [INFO ] KapTestLogger - Locator ile tıklama işlemi başlatılıyor: By.xpath: //button[text()='2025']
+[17:51:47] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:47] [INFO ] KapTestLogger - Yıl seçildi: 2025
+[17:51:47] [INFO ] KapTestLogger - 'BTN_SELECT_MONTH' anahtarına karşılık gelen raw locator alınıyor.
+[17:51:47] [INFO ] KapTestLogger - Locator ile tıklama işlemi başlatılıyor: By.xpath: //button[contains(@aria-label, 'Haziran') or text()[contains(.,'Haz')]]
+[17:51:48] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:48] [INFO ] KapTestLogger - Ay seçildi: Haziran (06)
+[17:51:48] [INFO ] KapTestLogger - 'BTN_SELECT_DAY' anahtarına karşılık gelen raw locator alınıyor.
+[17:51:48] [INFO ] KapTestLogger - Locator ile tıklama işlemi başlatılıyor: By.xpath: //button[normalize-space(.)='1' and not(@disabled)]
+[17:51:48] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:48] [INFO ] KapTestLogger - Gün seçildi: 1
+[17:51:48] [INFO ] KapTestLogger - Tarih seçme işlemi tamamlandı.
+[17:51:48] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175148_219.png
+{"logLevel":"debug","message":"Executing '{} elementine JS ile tıklanır' using 'class steps.QueryImpl.JsClickButton"}
+[17:51:48] [INFO ] KapTestLogger - 'BTN_ARA' anahtarına karşılık gelen element scroll ediliyor ve tıklanıyor.
+[17:51:48] [INFO ] KapTestLogger - 'BTN_ARA' anahtarına karşılık gelen locator alınıyor.
+[17:51:48] [INFO ] KapTestLogger - Locator'a scroll ediliyor ve tıklanıyor: By.xpath: //button[text()='Ara']
+[17:51:48] [INFO ] KapTestLogger - Element scroll ediliyor ve tıklanıyor: [[ChromeDriver: chrome on mac (88802032756ef977215cf0ae1d533b85)] -> xpath: //button[text()='Ara']]
+[17:51:49] [INFO ] KapTestLogger - Scroll ve tıklama işlemi başarıyla tamamlandı.
+[17:51:49] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175149_374.png
+{"logLevel":"debug","message":"Executing '{} içeren ilk satıra tıklanır' using 'class steps.ResultImpl.clickFirstRowContainingText"}
+[17:51:49] [INFO ] KapTestLogger - 'QNB' metnini içeren ilk satıra tıklanıyor...
+[17:51:49] [INFO ] KapTestLogger - Yüklenme göstergesinin kaybolması bekleniyor...
+[17:51:49] [INFO ] KapTestLogger - 'PROGRESS_INDICATOR' anahtarına karşılık gelen locator alınıyor.
+[17:51:49] [INFO ] KapTestLogger - Yüklenme göstergesi kayboldu, sonuçlar yüklendi.
+[17:51:49] [INFO ] KapTestLogger - 'ROW_CONTAINING_TEXT' anahtarına karşılık gelen raw locator alınıyor.
+[17:51:52] [INFO ] KapTestLogger - 'CLICKABLE_CELL_IN_ROW' anahtarına karşılık gelen locator alınıyor.
+[17:51:52] [INFO ] KapTestLogger - JS ile element tıklanıyor: [[[[ChromeDriver: chrome on mac (88802032756ef977215cf0ae1d533b85)] -> xpath: //tr[contains(@class, 'cursor-pointer') and contains(., 'QNB')]]] -> css selector: td[name='notification-navigation']]
+[17:51:52] [INFO ] KapTestLogger - Satır bulundu ve tıklandı: QNB
+[17:51:52] [INFO ] KapTestLogger - Yeni sekmeye geçiş yapılıyor...
+[17:51:52] [INFO ] KapTestLogger - Yeni sekmeye geçildi.
+[17:51:52] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175152_491.png
+{"logLevel":"debug","message":"Executing 'Sayfanın URL'si {} içermeli' using 'class steps.NotificationDetailsImpl.urlShouldStartWith"}
+[17:51:52] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175152_570.png
+{"logLevel":"debug","message":"Executing 'İndirilecek dosya formatı {} seçilir' using 'class steps.NotificationDetailsImpl.clickFileFormat"}
+[17:51:52] [INFO ] KapTestLogger - 'excel' parametresi ile dosya indirme butonuna tıklanıyor...
+[17:51:52] [INFO ] KapTestLogger - 'BTN_FILE_DOWNLOAD_GENERIC' anahtarına karşılık gelen raw locator alınıyor.
+[17:51:52] [INFO ] KapTestLogger - Locator ile tıklama işlemi başlatılıyor: By.xpath: //a[contains(@href, '/export/excel')]
+[17:51:52] [INFO ] KapTestLogger - Tıklama işlemi başarıyla tamamlandı.
+[17:51:52] [INFO ] KapTestLogger - Dosya indirme butonuna başarıyla tıklandı.
+[17:51:52] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175152_693.png
+{"logLevel":"debug","message":"Executing '{} dosyası {} olarak indirilmiş olmalı' using 'class steps.NotificationDetailsImpl.checkExcelDownloaded"}
+[17:51:52] [INFO ] KapTestLogger - Dosya indirme bekleniyor: /Users/alper/Desktop/TestAutomationCase/target/downloads/Bildirimler.xls (Zaman aşımı: 10 saniye)
+[17:51:53] [INFO ] KapTestLogger - Dosya başarıyla indirildi: /Users/alper/Desktop/TestAutomationCase/target/downloads/Bildirimler.xls
+[17:51:53] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175153_777.png
+{"logLevel":"debug","message":"Executing 'XLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır {}' using 'class steps.NotificationDetailsImpl.compareHtmlWithWeb"}
+[17:52:03] [INFO ] KapTestLogger - HTML ve web verileri karşılaştırılıyor. HTML dosyası: /target/downloads/Bildirimler.xls
+[17:52:03] [INFO ] KapTestLogger - HTML dosyası parse ediliyor: /Users/alper/Desktop/TestAutomationCase/target/downloads/Bildirimler.xls
+[17:52:03] [INFO ] KapTestLogger - Toplam 9 satır bulundu.
+[17:52:03] [WARN ] KapTestLogger - Satırda eksik bilgi bulundu. Satır atlandı.
+[17:52:03] [INFO ] KapTestLogger - HTML parse işlemi tamamlandı. Toplam 9 veri alındı.
+[17:52:03] [INFO ] KapTestLogger - Web sayfasından veri çekme işlemi başlatıldı.
+[17:52:03] [INFO ] KapTestLogger - 0 satır bulundu.
+[17:52:03] [WARN ] KapTestLogger - Açıklama alanı bulunamadı, atlanıyor.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".text-block-value"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88802032756ef977215cf0ae1d533b85, findElement {value=.text-block-value, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /var/folders/yn/zc0bqj7s5kx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52418/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88802032756ef977215cf0ae1d533b85
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361) ~[selenium-remote-driver-4.34.0.jar:?]
+	at utils.CompareUtils.extractWebData(CompareUtils.java:88) ~[classes/:?]
+	at utils.CompareUtils.compareHtmlWithWeb(CompareUtils.java:25) ~[classes/:?]
+	at steps.NotificationDetailsImpl.compareHtmlWithWeb(NotificationDetailsImpl.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.12.0.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.12.0.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[17:52:03] [INFO ] KapTestLogger - Web verisi başarıyla çekildi. Toplam 0 alan alındı.
+[17:52:03] [ERROR] KapTestLogger - Web sayfasında 'Yapılan Açıklama Düzeltme mi?' alanı bulunamadı.
+[17:52:04] [INFO ] KapTestLogger - Ekran görüntüsü kaydedildi: screenshots/step_20250804_175204_376.png
+[17:52:04] [INFO ] KapTestLogger - Senaryo tamamlandı...
+[17:52:04] [INFO ] KapTestLogger - Test suite tamamlandı...
+[17:52:04] [INFO ] KapTestLogger - Allure raporu oluşturuluyor...
+[17:52:05] [INFO ] KapTestLogger - Allure raporu başarıyla oluşturuldu.
+[17:52:05] [INFO ] KapTestLogger - WebDriver kapatılıyor...
+[17:52:05] [INFO ] KapTestLogger - WebDriver null olarak sıfırlandı.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

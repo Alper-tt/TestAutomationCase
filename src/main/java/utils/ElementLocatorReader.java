@@ -36,7 +36,7 @@ public class ElementLocatorReader {
                     };
 
                     if (locatorMap.containsKey(key)) {
-                        System.out.println("Aynı key birden fazla JSON dosyasında bulundu: " + key);
+                        LogUtil.logger.info("Aynı key birden fazla JSON dosyasında bulundu: {}", key);
                     }
 
                     locatorMap.put(key, by);

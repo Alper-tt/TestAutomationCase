@@ -6,7 +6,6 @@
 		"--simple-console"
 	],
 	"FailedItems": [
-		"specs/kap-notification-export.spec:3",
-		"specs/kap-notification-export.spec:22"
+		"specs/kap-notification-export.spec:3"
 	]
 }

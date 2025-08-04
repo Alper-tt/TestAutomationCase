@@ -1,6 +1,8 @@
 package pages;
 
+import com.thoughtworks.gauge.Table;
 import org.openqa.selenium.*;
+import utils.LogUtil;
 
 public class QueryPage extends BasePage {
 
@@ -8,25 +10,55 @@ public class QueryPage extends BasePage {
         super(driver);
     }
 
-    public void selectStartDate(String date) {
-        scrollAndClick("datepickerButton_BaslangicTarihi");
-        clickByKey("switchToYearButton");
-
-        String[] parts = date.split("\\.");
-        String gun = String.valueOf(Integer.parseInt(parts[0]));
-        String ay = parts[1];
-        String yil = parts[2];
-
-        String yearXpath = String.format(getLocatorRaw("yearButton_Generic"), yil);
-        clickByLocator(By.xpath(yearXpath));
-
-        String ayLabel = getMonthName(ay);
-        String monthXpath = String.format(getLocatorRaw("monthButton_Generic"), ayLabel, ayLabel.substring(0, 3));
-        clickByLocator(By.xpath(monthXpath));
-
-        String dayXpath = String.format(getLocatorRaw("dayButton_Generic"), gun);
-        clickByLocator(By.xpath(dayXpath));
+    public void clickCompanyGroup(String param) {
+        try {
+            LogUtil.logger.info("'{}' parametresi ile şirket grubu seçiliyor...", param);
+            String rawXpath = getLocatorRaw("DROPDOWN_MENU_GENERIC");
+            String finalXpath = String.format(rawXpath, param);
+            By locator = By.xpath(finalXpath);
+            clickByLocator(locator);
+            LogUtil.logger.info("Şirket grubu başarıyla seçildi: {}", param);
+        } catch (Exception e) {
+            LogUtil.logger.error("Şirket grubu seçilirken hata oluştu: {}", param, e);
+            throw new RuntimeException("Şirket grubu seçim hatası: " + param, e);
+        }
     }
+
+
+    public void selectStartDate(Table date) {
+        try {
+            LogUtil.logger.info("Tarih seçme işlemi başlatıldı.");
+            scrollAndClick("DATE_PICKER_BASLANGIC_TARIHI");
+            clickByKey("BTN_SWITCH_TO_YEAR_VIEW");
+
+            String[] parts = date.getColumnValues(0).get(0).split("\\.");
+            String gun = String.valueOf(Integer.parseInt(parts[0]));
+            String ay = parts[1];
+            String yil = parts[2];
+
+            LogUtil.logger.debug("Seçilecek tarih: Gün='{}', Ay='{}', Yıl='{}'", gun, ay, yil);
+
+            String yearXpath = String.format(getLocatorRaw("BTN_SELECT_YEAR"), yil);
+            clickByLocator(By.xpath(yearXpath));
+            LogUtil.logger.info("Yıl seçildi: {}", yil);
+
+            String ayLabel = getMonthName(ay);
+            String monthXpath = String.format(getLocatorRaw("BTN_SELECT_MONTH"), ayLabel, ayLabel.substring(0, 3));
+            clickByLocator(By.xpath(monthXpath));
+            LogUtil.logger.info("Ay seçildi: {} ({})", ayLabel, ay);
+
+            String dayXpath = String.format(getLocatorRaw("BTN_SELECT_DAY"), gun);
+            clickByLocator(By.xpath(dayXpath));
+            LogUtil.logger.info("Gün seçildi: {}", gun);
+
+            LogUtil.logger.info("Tarih seçme işlemi tamamlandı.");
+
+        } catch (Exception e) {
+            LogUtil.logger.error("Tarih seçim işlemi sırasında hata oluştu.", e);
+            throw new RuntimeException("Tarih seçim hatası", e);
+        }
+    }
+
 
     private String getMonthName(String number) {
         return switch (number) {
@@ -42,7 +74,10 @@ public class QueryPage extends BasePage {
             case "10" -> "Ekim";
             case "11" -> "Kasım";
             case "12" -> "Aralık";
-            default -> throw new IllegalArgumentException("Geçersiz ay: " + number);
+            default -> {
+                LogUtil.logger.error("Geçersiz ay numarası alındı: {}", number);
+                throw new IllegalArgumentException("Geçersiz ay: " + number);
+            }
         };
     }
 }

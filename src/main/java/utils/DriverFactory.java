@@ -14,6 +14,8 @@ public class DriverFactory {
 
     public static WebDriver getDriver() {
         if (driver == null) {
+            LogUtil.logger.info("Yeni WebDriver örneği oluşturuluyor...");
+            LogUtil.logger.info("Indirme klasörü temizleniyor: {}", downloadDir);
             createDownloadDir();
 
             Map<String, Object> prefs = new HashMap<>();
@@ -25,14 +27,17 @@ public class DriverFactory {
             options.setExperimentalOption("prefs", prefs);
 
             driver = new ChromeDriver(options);
+            LogUtil.logger.info("WebDriver başarıyla başlatıldı.");
         }
         return driver;
     }
 
     public static void quitDriver() {
         if (driver != null) {
+            LogUtil.logger.info("WebDriver kapatılıyor...");
             driver.quit();
             driver = null;
+            LogUtil.logger.info("WebDriver null olarak sıfırlandı.");
         }
     }
 
@@ -43,15 +48,30 @@ public class DriverFactory {
     public static void createDownloadDir() {
         File dir = new File(downloadDir);
         if (!dir.exists()) {
-            dir.mkdirs();
+            boolean created = dir.mkdirs();
+            if (created) {
+                LogUtil.logger.info("İndirme klasörü oluşturuldu: {}", downloadDir);
+            } else {
+                LogUtil.logger.warn("İndirme klasörü oluşturulamadı: {}", downloadDir);
+            }
+        } else {
+            LogUtil.logger.info("İndirme klasörü zaten mevcut: {}", downloadDir);
         }
     }
 
     public static void clearDownloadDir() {
         File dir = new File(downloadDir);
         if (dir.exists()) {
-            for (File file : dir.listFiles()) {
-                file.delete();
+            File[] files = dir.listFiles();
+            if (files != null) {
+                for (File file : files) {
+                    boolean deleted = file.delete();
+                    if (deleted) {
+                        LogUtil.logger.info("Dosya silindi: {}", file.getName());
+                    } else {
+                        LogUtil.logger.warn("Dosya silinemedi: {}", file.getName());
+                    }
+                }
             }
         }
     }
