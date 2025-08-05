@@ -12,6 +12,11 @@ public class ResultsPage extends BasePage {
         super(driver);
     }
 
+    /**
+     * Sayfadaki yüklenme göstergesinin (progress indicator) kaybolmasını bekler.
+     * "PROGRESS_INDICATOR" locator'ı üzerinden element görünmez olana kadar beklenir.
+     * Bu yöntem, sonuçların yüklenmesinin tamamlandığını garanti altına almak için kullanılır.
+     */
     public void waitUntilResultsLoaded() {
         try {
             LogUtil.logger.info("Yüklenme göstergesinin kaybolması bekleniyor...");
@@ -24,7 +29,14 @@ public class ResultsPage extends BasePage {
         }
     }
 
-
+    /**
+     * Verilen metni içeren ilk satırdaki tıklanabilir hücreye JavaScript ile tıklar.
+     * İlgili satırlar "ROW_CONTAINING_TEXT" raw XPath'i üzerinden filtrelenir,
+     * satır içinde "CLICKABLE_CELL_IN_ROW" locator'ına sahip hücre tıklanır.
+     * Bu yöntem, filtrelenmiş veya sorgulanmış bir tabloda spesifik bir veriye ulaşmak için kullanılır.
+     *
+     * @param text Satır içeriğinde aranacak metin
+     */
     public void clickFirstRowContaining(String text) {
         try {
             LogUtil.logger.info("'{}' metnini içeren ilk satıra tıklanıyor...", text);
@@ -54,8 +66,12 @@ public class ResultsPage extends BasePage {
         }
     }
 
-
-
+    /**
+     * Yeni açılan sekmeye geçiş yapar.
+     * Mevcut sekmenin handle'ı saklanır, yeni sekmelerin oluşması beklenir
+     * ve yeni sekmeye geçiş yapılır.
+     * Bu yöntem, bir link ya da buton tıklaması sonucunda yeni sekme açılan durumlarda kullanılır.
+     */
     public void switchToNewTab() {
         try {
             LogUtil.logger.info("Yeni sekmeye geçiş yapılıyor...");

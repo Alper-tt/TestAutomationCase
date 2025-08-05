@@ -3,7 +3,7 @@ package steps;
 import com.thoughtworks.gauge.Step;
 import org.openqa.selenium.WebDriver;
 import pages.NotificationDetailsPage;
-import utils.CompareUtils;
+import utils.CompareWebWithXlsUtils;
 import utils.DownloadChecker;
 import utils.DriverFactory;
 
@@ -14,14 +14,14 @@ public class NotificationDetailsImpl {
 
     WebDriver driver = getDriver();
     NotificationDetailsPage notificationDetailsPage = new NotificationDetailsPage(driver);
-    CompareUtils compareUtils = new CompareUtils();
+    CompareWebWithXlsUtils compareWebWithXlsUtils = new CompareWebWithXlsUtils();
 
     @Step("Sayfanın URL'si <text> içermeli")
-    public void urlShouldStartWith(String pathPrefix) {
+    public void urlShouldContain(String prefix) {
         String currentUrl = driver.getCurrentUrl();
         assertThat(currentUrl)
-                .as("URL beklenen <pathPrefix> ile başlamıyor")
-                .contains(pathPrefix);
+                .as("URL beklenen <prefix> içermiyor")
+                .contains(prefix);
     }
 
     @Step("İndirilecek dosya formatı <param> seçilir")
@@ -38,8 +38,8 @@ public class NotificationDetailsImpl {
                 .isTrue();
     }
 
-    @Step("XLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır <htmlPath>")
-    public void compareHtmlWithWeb(String htmlPath) throws Exception {
-        compareUtils.compareHtmlWithWeb(htmlPath);
+    @Step("XLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır <xlsPath>")
+    public void comparexlsWithWeb(String xlsPath) throws Exception {
+        compareWebWithXlsUtils.compareXlsWithWeb(xlsPath);
     }
 }

@@ -1,14 +1,14 @@
-# Sorgulama sayfasından işlem gören şirketler için 01.06.2025 tarihini seç, arama yap, QNB satırını bul ve tıkla
+# Sorgulama sayfasından <param> için <date> tarihini seç, arama yap, <text> satırını bul ve tıkla
 
-* "BTN_SIRKET_BILDIRIMI" elementine tıklanır
-* "SELECT_BOX_COMPANY_GROUP" elementine tıklanır
-* Sirket grubu menüsünden "İşlem Gören Şirketler" seç
+* "BTN_SIRKET_BILDIRIMI" elementine tıkla
+* "SELECT_BOX_COMPANY_GROUP" elementine tıkla
+* Sirket grubu menüsünden <param> seç
 
 * Tablodaki veriyi tarih alanina gir
 |date      |
 |----------|
-|01.06.2025|
+|<date>    |
 
 * "BTN_ARA" elementine JS ile tıklanır
-* "QNB" içeren ilk satıra tıklanır
+* <text> içeren ilk satıra tıklanır
 * Sayfanın URL'si "Bildirim" içermeli

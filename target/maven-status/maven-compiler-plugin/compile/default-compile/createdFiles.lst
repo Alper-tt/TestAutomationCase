@@ -3,10 +3,16 @@ utils/ScreenshotUtils.class
 pages/QueryPage.class
 pages/BasePage.class
 pages/KapHomePage.class
+utils/CustomScreenRecorder.class
 pages/NotificationDetailsPage.class
 pages/ResultsPage.class
+utils/ConfigReader.class
 utils/KapHtmlParser.class
 utils/ElementLocatorReader$1.class
+utils/VideoRecorderUtil.class
+utils/CompareUtils.class
 utils/DownloadChecker.class
+hooks/ExecutionHooks.class
+utils/LogUtil.class
 utils/DriverFactory.class
 utils/AllureReportGenerator.class

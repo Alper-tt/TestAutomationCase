@@ -13,6 +13,14 @@ import java.util.Date;
 
 public class ScreenshotUtils {
 
+    /**
+     * Her adım sonunda ekran görüntüsü alır ve zaman damgası ile birlikte "screenshots/" dizinine kaydeder.
+     * Eğer WebDriver nesnesi TakesScreenshot arayüzünü destekliyorsa:
+     * Ekran görüntüsü alınır
+     * Klasör mevcut değilse oluşturulur
+     * Dosya ismi şu formatla kaydedilir: step_yyyyMMdd_HHmmss_SSS.png
+     * Aksi takdirde, log’a driver’ın screenshot desteklemediği bilgisi yazılır.
+     */
     public static void takeScreenshotAfterEachStep() {
         WebDriver driver = DriverFactory.getDriver();
 

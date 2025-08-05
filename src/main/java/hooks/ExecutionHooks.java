@@ -12,6 +12,11 @@ public class ExecutionHooks {
     @BeforeSuite
     public void beforeSuite() {
         LogUtil.logger.info("Test suite başlatılıyor...");
+    }
+
+    @BeforeScenario
+    public void beforeScenario() throws Exception {
+        LogUtil.logger.info("Scenario başlatılıyor...");
         DriverFactory.clearDownloadDir();
         driver = DriverFactory.getDriver();
 
@@ -23,11 +28,6 @@ public class ExecutionHooks {
                     "NotificationDetailsPage.json"
             );
         }
-    }
-
-    @BeforeScenario
-    public void beforeScenario() {
-        LogUtil.logger.info("Scenario başlatılıyor...");
     }
 
     @BeforeSpec
@@ -43,12 +43,12 @@ public class ExecutionHooks {
     @AfterScenario
     public void afterScenario() {
         LogUtil.logger.info("Senaryo tamamlandı...");
+        DriverFactory.quitDriver();
     }
 
     @AfterSuite
     public void afterSuite() {
         LogUtil.logger.info("Test suite tamamlandı...");
         AllureReportGenerator.generateReport();
-        DriverFactory.quitDriver();
     }
 }

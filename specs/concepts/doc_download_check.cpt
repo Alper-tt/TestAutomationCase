@@ -1,5 +1,5 @@
-# Bildirim detayları sayfasından Excel dosyası indir ve doğrula
+# Bildirim detayları sayfasından <format> dosyası indir ve doğrula
 
-* İndirilecek dosya formatı "excel" seçilir
-* "excel" dosyası "Bildirimler.xls" olarak indirilmiş olmalı
+* İndirilecek dosya formatı <format> seçilir
+* <format> dosyası "Bildirimler.xls" olarak indirilmiş olmalı
 * XLS dosyasındaki veriler ile web sayfasındaki veriler karşılaştırılır "/target/downloads/Bildirimler.xls"

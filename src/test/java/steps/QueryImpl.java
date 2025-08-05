@@ -24,7 +24,7 @@ public class QueryImpl {
 
     @Step("<button> elementine JS ile tıklanır")
     public void JsClickButton(String buttonLabel) {
-        queryPage.scrollAndClick(buttonLabel);
+        queryPage.clickWithJS(buttonLabel);
     }
 
 }

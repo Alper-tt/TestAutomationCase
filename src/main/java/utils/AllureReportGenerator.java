@@ -2,6 +2,13 @@ package utils;
 
 public class AllureReportGenerator {
 
+    /**
+     * Gauge test çalıştırmalarından sonra Allure raporunu oluşturur.
+     * Bu metod `allure generate` komutunu işletim sistemi üzerinden çalıştırarak:
+     *   `reports/xml-report` dizinindeki XML test sonuçlarını okur,
+     *   `allure-report` dizinine temiz bir şekilde HTML raporu oluşturur.
+     * Eğer süreç başarılı tamamlanırsa log'a bilgi yazılır, aksi halde hata log'lanır.
+     */
     public static void generateReport() {
         try {
             LogUtil.logger.info("Allure raporu oluşturuluyor...");

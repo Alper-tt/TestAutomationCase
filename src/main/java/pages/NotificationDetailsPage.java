@@ -3,17 +3,19 @@ package pages;
 import org.openqa.selenium.*;
 import utils.LogUtil;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
 public class NotificationDetailsPage extends BasePage {
 
     public NotificationDetailsPage(WebDriver driver) {
         super(driver);
     }
 
-
+    /**
+     * Verilen dosya formatına göre dosya indirme butonuna tıklar.
+     * JSON'da tanımlı "BTN_FILE_DOWNLOAD_GENERIC" adlı raw XPath içine
+     * parametre yerleştirilerek butonun locatörü oluşturulur ve butona tıklanır.
+     *
+     * @param param İndirilecek dosyanın formatını belirten parametre
+     */
     public void clickFileFormat(String param) {
         try {
             LogUtil.logger.info("'{}' parametresi ile dosya indirme butonuna tıklanıyor...", param);

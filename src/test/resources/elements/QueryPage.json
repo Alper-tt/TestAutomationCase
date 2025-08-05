@@ -41,7 +41,7 @@
   },
   {
     "key": "BTN_SELECT_DAY",
-    "value": "//button[normalize-space(.)='%s' and not(@disabled)]",
+    "value": "//button[text()='%s']",
     "type": "xpath"
   },
   {

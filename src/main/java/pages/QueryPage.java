@@ -10,6 +10,13 @@ public class QueryPage extends BasePage {
         super(driver);
     }
 
+    /**
+     * Açılır menüden şirket grubunu seçer.
+     * "DROPDOWN_MENU_GENERIC" raw XPath'ine parametre yerleştirilerek locator oluşturulur
+     * ve bu locatöre tıklanır.
+     *
+     * @param param Açılır menüde seçilecek şirket grubu adı
+     */
     public void clickCompanyGroup(String param) {
         try {
             LogUtil.logger.info("'{}' parametresi ile şirket grubu seçiliyor...", param);
@@ -25,6 +32,15 @@ public class QueryPage extends BasePage {
     }
 
 
+    /**
+     * Gauge tablosundan gelen tarih verisini kullanarak başlangıç tarihi seçer.
+     * Tarih seçim işlemi şu adımları içerir:
+     * Başlangıç tarihi alanına tıklanır.
+     * Yıl görünümüne geçiş yapılır.
+     * Yıl, ay ve gün ayrı ayrı seçilir.
+     *
+     * @param date Gauge üzerinden gelen tablo yapısında, ilk hücresinde "gg.aa.yyyy" formatında tarih bilgisi içeren tablo
+     */
     public void selectStartDate(Table date) {
         try {
             LogUtil.logger.info("Tarih seçme işlemi başlatıldı.");
@@ -59,7 +75,12 @@ public class QueryPage extends BasePage {
         }
     }
 
-
+    /**
+     * Ay numarasına karşılık gelen Türkçe ay adını döner.
+     *
+     * @param number Ay numarası ("01" ile "12" arasında olmalı)
+     * @return Türkçe ay adı (örneğin: "01" için "Ocak")
+     */
     private String getMonthName(String number) {
         return switch (number) {
             case "01" -> "Ocak";

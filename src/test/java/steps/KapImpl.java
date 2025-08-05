@@ -14,34 +14,35 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class KapImpl {
 
     WebDriver driver = DriverFactory.getDriver();
-    KapHomePage homePage = new KapHomePage(driver);
+    BasePage basePage = new BasePage(driver);
 
     @Step("Dosya indirme dizinini temizle")
     public void clearDownloadDir() {
         DriverFactory.clearDownloadDir();
     }
 
-    @Step("Tarayıcı boyutu <width>x<height> olarak ayarlanır")
-    public void resizeBrowser(int width, int height) {
-        driver.manage().window().setSize(new Dimension(width, height));
+    @Step("<device> cihaz tipi için tarayici boyutu ayarla")
+    public void setBrowserSizeByDevice(String device) {
+        basePage.setBrowserSizeByDevice(device);
     }
 
-    @Step("<url> adresine gidilir")
-    public void navigateToUrl(String url) {
-        //String url = utils.readproperties.readProperty("url");
+    @Step("Kullanıcı <urlKey> sayfasina git")
+    public void navigateToUrl(String urlKey) {
+        String url = ConfigReader.getProperty(urlKey);
         driver.get(url);
     }
 
-    @Step("Sayfanın URL'si <expectedUrl> olmalı")
+    @Step("Sayfanın URL'si <expectedUrl> olsun")
     public void checkCurrentUrl(String expectedUrl) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        boolean urlMatches = wait.until(ExpectedConditions.urlToBe(expectedUrl));
+        boolean urlMatches = wait.until(ExpectedConditions.urlToBe(ConfigReader.getProperty(expectedUrl)));
         assertThat(urlMatches)
+                .as("URL uyuşmazlığı: Beklenen URL: %s, Gerçek URL: %s", expectedUrl, driver.getCurrentUrl())
                 .isTrue();
     }
 
-    @Step("<button> elementine tıklanır")
+    @Step("<button> elementine tıkla")
     public void clickButton(String buttonLabel) {
-        homePage.clickByKey(buttonLabel);
+        basePage.clickByKey(buttonLabel);
     }
 }

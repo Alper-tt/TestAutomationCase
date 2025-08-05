@@ -9,9 +9,9 @@
  </head>
  <body>
   <h1 style="font-size: medium">BORSA İSTANBUL A.Ş.</h1>
-  <h1 style="font-size: medium">İşlem İptali</h1>
+  <h1 style="font-size: medium">Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri</h1>
   <div>
-   Gönderim Tarihi:04.08.2025 17:48:22
+   Gönderim Tarihi:05.08.2025 12:18:34
   </div>
   <div>
    Bildirim Tipi:DUY
@@ -27,7 +27,7 @@
     <tbody> 
     </tbody>
    </table> 
-   <table class="financial-table tbl_oda-12400_Transaction-Cancellation" border="1" style="font-size:10px">
+   <table class="financial-table tbl_oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices" border="1" style="font-size:10px">
     <tbody>
      <tr>
       <td class="info-table-title-cell taxonomy-abstract-title">
@@ -39,7 +39,7 @@
       <td class="info-table-title-cell">
        <div>
         <div class="gwt-Label">
-         []
+         [PAPIL, QNBTR, VSNMD]
         </div>
        </div></td>
      </tr>
@@ -58,7 +58,7 @@
        </div></td>
      </tr>
     </tbody>
-    <tbody>
+    <tbody class="tbdy-1">
      <tr>
       <td colspan="3" rowspan="3">
        <div class="gwt-Label"></div></td>
@@ -74,15 +74,15 @@
      <tr>
       <td></td>
      </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-3 abstract-row">
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-3 abstract-row">
       <td class="taxonomy-dimensional-context-cell"></td>
       <td class="taxonomy-field-title">
        <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody>
+        <tbody class="tbdy-1">
          <tr>
           <td align="left" style="vertical-align: top;">
            <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            İşlem İptali
+            Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri
            </div></td>
           <td align="left" style="vertical-align: top;"></td>
           <td align="left" style="vertical-align: top;">
@@ -92,11 +92,11 @@
         </tbody>
        </table></td>
      </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-4 data-input-row alternate-row presentation-enabled">
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-4 data-input-row alternate-row presentation-enabled">
       <td class="taxonomy-dimensional-context-cell"></td>
       <td class="taxonomy-field-title">
        <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
+        <tbody class="tbdy-1">
          <tr>
           <td align="left" style="vertical-align: top;">
            <div class="gwt-Label multi-language-content content-tr" style="display: block;">
@@ -116,11 +116,11 @@
         </div>
        </div></td>
      </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-5 data-input-row presentation-enabled">
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-5 data-input-row presentation-enabled">
       <td class="taxonomy-dimensional-context-cell"></td>
       <td class="taxonomy-field-title">
        <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
+        <tbody class="tbdy-1">
          <tr>
           <td align="left" style="vertical-align: top;">
            <div class="gwt-Label multi-language-content content-tr" style="display: block;">
@@ -140,11 +140,11 @@
         </div>
        </div></td>
      </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-6 abstract-row">
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-6 abstract-row hidden">
       <td class="taxonomy-dimensional-context-cell"></td>
       <td class="taxonomy-field-title">
        <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody>
+        <tbody class="tbdy-1">
          <tr>
           <td align="left" style="vertical-align: top;">
            <div class="gwt-Label multi-language-content content-tr" style="display: block;">
@@ -158,147 +158,29 @@
         </tbody>
        </table></td>
      </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-7 data-input-row alternate-row presentation-enabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            İlgili Piyasa
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel" title="Borçlanma Araçları Piyasası">
-         Borçlanma Araçları Piyasası
-        </div>
-       </div></td>
-     </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-8 data-input-row presentation-disabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            İlgili Pazar
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel"></div>
-       </div></td>
-     </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-9 data-input-row alternate-row presentation-disabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel verboseLabel" border="1" style="font-size:10px">
-        <tbody>
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            İlgili İşlem Sırası
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field verboseLabel"></div>
-       </div></td>
-     </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-10 data-input-row presentation-disabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Sözleşme No
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel"></div>
-       </div></td>
-     </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-11 data-input-row alternate-row presentation-enabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            İşlemin Gerçekleşme Tarihi
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel" title="01/08/2025">
-         04/08/2025
-        </div>
-       </div></td>
-     </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-12 data-input-row presentation-disabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody>
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            İptal Nedeni
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel"></div>
-       </div></td>
-     </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-13 abstract-row">
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-7 abstract-row hidden">
       <td class="taxonomy-dimensional-context-cell"></td>
       <td class="taxonomy-field-title">
        <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody>
+        <tbody class="tbdy-1">
+         <tr>
+          <td align="left" style="vertical-align: top;">
+           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+            Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri
+           </div></td>
+          <td align="left" style="vertical-align: top;"></td>
+          <td align="left" style="vertical-align: top;">
+           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
+          <td align="left" style="vertical-align: top;"></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-8 abstract-row">
+      <td class="taxonomy-dimensional-context-cell"></td>
+      <td class="taxonomy-field-title">
+       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
+        <tbody class="tbdy-1">
          <tr>
           <td align="left" style="vertical-align: top;">
            <div class="gwt-Label multi-language-content content-tr" style="display: block;">
@@ -312,16 +194,118 @@
         </tbody>
        </table></td>
      </tr>
-     <tr class="oda-12400_Transaction-Cancellation-row-14 data-input-row alternate-row presentation-enabled">
+     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-9 data-input-row alternate-row presentation-enabled">
       <td class="taxonomy-dimensional-context-cell"></td>
       <td colspan="2" class="taxonomy-context-value-summernote multi-language-content content-tr" style="display: table-cell;">
        <div>
         <div>
          <div class="text-block-value">
-          Borçlanma Araçları Piyasası'nda 4 Ağustos 2025 tarihinde gerçekleşmiş olan ve detayları ekte yer alan işlemler Borsa İstanbul A.Ş. Borsacılık Faaliyetlerine İlişkin Esaslar Yönetmeliği'nin 33'üncü maddesinde belirtilen esaslar doğrultusunda iptal edilmiştir.
+          <p>-</p>
          </div>
         </div>
        </div></td>
+     </tr>
+    </tbody>
+    <tbody class="">
+     <tr>
+      <td colspan="7" class="taxonomy-title-panel taxonomy-abstract-title">
+       <div class="gwt-HTML">
+        <br>
+        <br>
+        <br>
+       </div></td>
+     </tr>
+     <tr>
+      <td colspan="7" class="taxonomy-title-panel taxonomy-abstract-title">
+       <div>
+        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+         Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri
+        </div>
+       </div></td>
+     </tr>
+     <tr>
+      <td align="center" colspan="3" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
+       <div class="gwt-Label"></div></td>
+      <td>
+       <div class="gwt-Label"></div></td>
+     </tr>
+     <tr class="with-plus-row">
+      <td align="center" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
+       <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+        Pay Adı
+       </div></td>
+      <td align="center" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
+       <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+        FDPO (%)
+       </div></td>
+      <td align="center" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
+       <div class="gwt-Label multi-language-content content-tr" style="display: block;">
+        Geçerlilik Tarihi
+       </div></td>
+      <td class="icon-column"><a href="javascript:;" class="add-typed-button"><i class="fa fa-plus fa-3x"></i> </a></td>
+     </tr>
+     <tr class="new-type-row">
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         PAPILON SAVUNMA
+        </div>
+       </div></td>
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         100
+        </div>
+       </div></td>
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         06/08/2025
+        </div>
+       </div></td>
+      <td class="icon-column"><a href="javascript:;"><i class="fa fa-trash-o fa-3x"></i> </a></td>
+     </tr>
+     <tr class="new-type-row">
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         ONB BANK
+        </div>
+       </div></td>
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         0,12
+        </div>
+       </div></td>
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         06/08/2025
+        </div>
+       </div></td>
+      <td class="icon-column"><a href="javascript:;"><i class="fa fa-trash-o fa-3x"></i> </a></td>
+     </tr>
+     <tr class="new-type-row">
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         VISNE MADENCILIK
+        </div>
+       </div></td>
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         10
+        </div>
+       </div></td>
+      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
+       <div>
+        <div class="taxonomy-label-field align-right-important">
+         06/08/2025
+        </div>
+       </div></td>
+      <td class="icon-column"><a href="javascript:;"><i class="fa fa-trash-o fa-3x"></i> </a></td>
      </tr>
     </tbody>
    </table>

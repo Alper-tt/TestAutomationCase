@@ -2,31 +2,11 @@ package pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
+import utils.DriverFactory;
 import utils.ElementLocatorReader;
 import utils.LogUtil;
 
 import java.time.Duration;
-
-// concept dosyaları oluştur +
-// step dosyalarını sayfa sayfa ayır ****** +
-// element isimlerini 'BTN,LBL_NAME' olarak yaz ****** +
-// her stepten sonra ekran görüntüsü aldır + (rapor içine eklenebiliyorsa ekle)
-// hooks yap** hooksa +
-// driver hookta ayağa kalkacak +
-// driver tipi çözünürlük pom.xml propertiesden gelmeli (before suite içerisinde çek driverı) + (tekrar denenecek)
-// log4j ekle logger.info("Getting locator for key: ", key); +
-// log dosyası ekle +
-// url gibi bilgileri user properties ekle
-// tarih kısmını javascript executor ile value değiştirmeye çalış. chatgpt sor
-// docker ekleyip kubernetes entegre etmeye çalış selenium grid dockerdan kaldır.
-
-// olarak tüm methodların başına ekle
-/**
- * Ekranda bulunması gereken elementin locatorunu döndürür.
- *
- * @param
- * @return
- */
 
 public class BasePage {
     protected final WebDriver driver;
@@ -44,10 +24,10 @@ public class BasePage {
     }
 
     /**
-     * Ekranda bulunması gereken elementin locatorunu döndürür.
+     * Verilen anahtara karşılık gelen locator'ı JSON dosyasından alır.
      *
-     * @param key
-     * @return
+     * @param key JSON dosyasında tanımlı locator anahtarı
+     * @return Anahtara karşılık gelen By nesnesi
      */
     protected By getLocator(String key) {
         try {
@@ -59,6 +39,12 @@ public class BasePage {
         }
     }
 
+    /**
+     * Verilen anahtara karşılık gelen raw (ham) locator string'ini JSON dosyasından alır.
+     *
+     * @param key JSON dosyasında tanımlı locator anahtarı
+     * @return Anahtara karşılık gelen locator'ın string hali
+     */
     protected String getLocatorRaw(String key) {
         try {
             LogUtil.logger.info("'{}' anahtarına karşılık gelen raw locator alınıyor.", key);
@@ -69,6 +55,11 @@ public class BasePage {
         }
     }
 
+    /**
+     * Verilen locator üzerinden element bulunur ve tıklanır.
+     *
+     * @param locator Tıklanacak elementin By nesnesi
+     */
     public void clickByLocator(By locator) {
         try {
             LogUtil.logger.info("Locator ile tıklama işlemi başlatılıyor: {}", locator);
@@ -80,6 +71,11 @@ public class BasePage {
         }
     }
 
+    /**
+     * JSON dosyasındaki key'e karşılık gelen element bulunur ve tıklanır.
+     *
+     * @param key JSON dosyasında tanımlı locator anahtarı
+     */
     public void clickByKey(String key) {
         try {
             LogUtil.logger.info("'{}' anahtarına karşılık gelen element tıklanıyor.", key);
@@ -92,6 +88,12 @@ public class BasePage {
         }
     }
 
+    /**
+     * WebElement'e JavaScript kullanılarak tıklanır.
+     * Bu yöntem, normal Selenium tıklamasının başarısız olduğu durumlar için kullanılır.
+     *
+     * @param element Tıklanacak WebElement nesnesi
+     */
     public void clickWithJS(WebElement element) {
         try {
             LogUtil.logger.info("JS ile element tıklanıyor: {}", element);
@@ -102,6 +104,23 @@ public class BasePage {
         }
     }
 
+    public void clickWithJS(String buttonLabel) {
+        WebElement element = driver.findElement(getLocator(buttonLabel));
+        try {
+            LogUtil.logger.info("JS ile element tıklanıyor: {}", element);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        } catch (Exception e) {
+            LogUtil.logger.error("JS ile tıklama başarısız oldu. Element: {}", element, e);
+            throw new RuntimeException("JS tıklama hatası", e);
+        }
+    }
+
+    /**
+     * Verilen WebElement önce görünür alana scroll edilir, ardından tıklanır.
+     * Eğer tıklama başarısız olursa, JS ile tıklama denenir.
+     *
+     * @param element Scroll edilip tıklanacak WebElement
+     */
     public void scrollAndClick(WebElement element) {
         try {
             LogUtil.logger.info("Element scroll ediliyor ve tıklanıyor: {}", element);
@@ -115,6 +134,11 @@ public class BasePage {
         }
     }
 
+    /**
+     * Verilen locator ile element beklenir, scroll edilerek görünür hale getirilir ve tıklanır.
+     *
+     * @param locator Scroll edilip tıklanacak elementin By nesnesi
+     */
     public void scrollAndClick(By locator) {
         try {
             LogUtil.logger.info("Locator'a scroll ediliyor ve tıklanıyor: {}", locator);
@@ -126,6 +150,11 @@ public class BasePage {
         }
     }
 
+    /**
+     * JSON dosyasındaki anahtara karşılık gelen locator üzerinden scroll ve tıklama işlemi yapılır.
+     *
+     * @param key JSON dosyasında tanımlı locator anahtarı
+     */
     public void scrollAndClick(String key) {
         try {
             LogUtil.logger.info("'{}' anahtarına karşılık gelen element scroll ediliyor ve tıklanıyor.", key);
@@ -135,5 +164,18 @@ public class BasePage {
             LogUtil.logger.error("Scroll ve tıklama işlemi başarısız oldu. Anahtar: {}", key, e);
             throw new RuntimeException("Scroll + tıklama hatası: " + key, e);
         }
+    }
+
+    public void setBrowserSizeByDevice(String device) {
+        Dimension dimension = switch (device.toLowerCase()) {
+            case "mobil" -> new Dimension(390, 844);
+            case "masaüstü" -> new Dimension(1920, 1080);
+            case "tablet" -> new Dimension(768, 1024);
+            default -> throw new IllegalArgumentException("Bilinmeyen cihaz tipi: " + device);
+        };
+
+        WebDriver driver = DriverFactory.getDriver();
+        driver.manage().window().setSize(dimension);
+        LogUtil.logger.info("{} cihaz tipi için tarayıcı boyutu ayarlandı: {}", device, dimension);
     }
 }
