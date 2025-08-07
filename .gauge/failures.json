@@ -5,5 +5,7 @@
 		"--hide-suggestion",
 		"--simple-console"
 	],
-	"FailedItems": []
+	"FailedItems": [
+		"specs/kap-notification-export.spec:15"
+	]
 }
