@@ -8,10 +8,10 @@
   <style> body { text-align: left; } </style>
  </head>
  <body>
-  <h1 style="font-size: medium">BORSA İSTANBUL A.Ş.</h1>
-  <h1 style="font-size: medium">Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri</h1>
+  <h1 style="font-size: medium">MERKEZİ KAYIT KURULUŞU A.Ş.</h1>
+  <h1 style="font-size: medium">Borçlanma Araçları, Yatırım Fonları ve Varant İtfa/Kupon/Getiri/ Nakdi Uzlaşı Ödeme İşlemleri</h1>
   <div>
-   Gönderim Tarihi:05.08.2025 12:18:34
+   Gönderim Tarihi:07.08.2025 15:22:00
   </div>
   <div>
    Bildirim Tipi:DUY
@@ -23,289 +23,844 @@
    Periyot:
   </div>
   <div>
-   <table class="financial-header-table" border="1" style="font-size:10px"> 
-    <tbody> 
-    </tbody>
-   </table> 
-   <table class="financial-table tbl_oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices" border="1" style="font-size:10px">
+   <table style="font-size:10px" class="tbl_MKK_CSV_Report_ID" border="1">
     <tbody>
      <tr>
-      <td class="info-table-title-cell taxonomy-abstract-title">
-       <div>
-        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-         İlgili Şirketler
-        </div>
-       </div></td>
-      <td class="info-table-title-cell">
-       <div>
-        <div class="gwt-Label">
-         [PAPIL, QNBTR, VSNMD]
-        </div>
-       </div></td>
-     </tr>
-     <tr>
-      <td class="info-table-title-cell taxonomy-abstract-title">
-       <div>
-        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-         İlgili Fonlar
-        </div>
-       </div></td>
-      <td class="info-table-title-cell">
-       <div>
-        <div class="gwt-Label">
-         []
-        </div>
-       </div></td>
-     </tr>
-    </tbody>
-    <tbody class="tbdy-1">
-     <tr>
-      <td colspan="3" rowspan="3">
-       <div class="gwt-Label"></div></td>
-     </tr>
-     <tr>
-      <td colspan="0" align="center" class="taxonomy-dimensional-header-cell col-index-3 multi-language-content content-tr report-lang-header" parent="0" rowspan="1" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-         Türkçe
-        </div>
-       </div></td>
-     </tr>
-     <tr>
-      <td></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-3 abstract-row">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody class="tbdy-1">
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-4 data-input-row alternate-row presentation-enabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody class="tbdy-1">
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Yapılan Açıklama Düzeltme mi
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel" title="Hayır (No)">
-         Hayır (No)
-        </div>
-       </div></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-5 data-input-row presentation-enabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel standardLabel" border="1" style="font-size:10px">
-        <tbody class="tbdy-1">
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Konuya İlişkin Daha Önce Yapılan Açıklamanın Tarihi
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-      <td class="taxonomy-context-value col-order-class-3 multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="gwt-Label taxonomy-label-field standardLabel" title="-">
-         -
-        </div>
-       </div></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-6 abstract-row hidden">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody class="tbdy-1">
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Bildirim İçeriği
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-7 abstract-row hidden">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody class="tbdy-1">
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-8 abstract-row">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td class="taxonomy-field-title">
-       <table cellspacing="0" cellpadding="0" class="taxonomy-title-panel taxonomy-abstract-title standardLabel" border="1" style="font-size:10px">
-        <tbody class="tbdy-1">
-         <tr>
-          <td align="left" style="vertical-align: top;">
-           <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-            Açıklamalar
-           </div></td>
-          <td align="left" style="vertical-align: top;"></td>
-          <td align="left" style="vertical-align: top;">
-           <div class="fa fa-question-circle fa-2x taxonomy-field-documentation  multi-language-content content-tr" aria-hidden="true" style="display: inline-block;"></div></td>
-          <td align="left" style="vertical-align: top;"></td>
-         </tr>
-        </tbody>
-       </table></td>
-     </tr>
-     <tr class="oda-11900_Changes-In-Flotation-Ratios-Used-In-Calculation-Of-BIST-Stock-Indices-row-9 data-input-row alternate-row presentation-enabled">
-      <td class="taxonomy-dimensional-context-cell"></td>
-      <td colspan="2" class="taxonomy-context-value-summernote multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div>
-         <div class="text-block-value">
-          <p>-</p>
-         </div>
-        </div>
-       </div></td>
-     </tr>
-    </tbody>
-    <tbody class="">
-     <tr>
-      <td colspan="7" class="taxonomy-title-panel taxonomy-abstract-title">
-       <div class="gwt-HTML">
-        <br>
-        <br>
-        <br>
-       </div></td>
-     </tr>
-     <tr>
-      <td colspan="7" class="taxonomy-title-panel taxonomy-abstract-title">
-       <div>
-        <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-         Endekslerde Kullanılan Fiili Dolaşımdaki Pay Oranı Değişiklikleri
-        </div>
-       </div></td>
-     </tr>
-     <tr>
-      <td align="center" colspan="3" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
-       <div class="gwt-Label"></div></td>
       <td>
-       <div class="gwt-Label"></div></td>
+       <div class="mB10 pdB10 borderBottom">
+        <table style="font-size:10px" border="1">
+         <tbody>
+          <tr class="bgLightgray">
+           <td width="30%">
+            <div class="bold font14">
+             Özet Bilgi
+            </div></td>
+           <td>
+            <div class="gwt-HTML control-label lineheight-32px">
+             Borçlanma Araçları, Yatırım Fonları ve Varant İtfa/Kupon/Getiri/ Nakdi Uzlaşı Ödeme İşlemleri
+            </div></td>
+          </tr>
+          <tr>
+           <td>
+            <div class="bold font14">
+             İlgili Şirketler
+            </div></td>
+           <td>
+            <div class="gwt-HTML control-label lineheight-32px">
+             ABVKS, AGHOL, BLSMD, DTBMK, EKTVK, EMVAR, ENJSA, HLVKS, ISTFK, KTKVK, KTSVK, MBFTR, MRBAS, OYYAT, QNBIN, SMRVA, TAMFA, VAKVK, VDFLO
+            </div></td>
+          </tr>
+         </tbody>
+        </table>
+       </div></td>
      </tr>
-     <tr class="with-plus-row">
-      <td align="center" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
-       <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-        Pay Adı
+     <tr>
+      <td>
+       <div class="gwt-HTML control-label lineheight-32px">
+        Merkezi Kaydi Sistemde ihraççı şirket bildirimleri doğrultusunda gerçekleştirilen hak kullanım ödemelerine ait kayıtlar aşağıda yer almaktadır.
        </div></td>
-      <td align="center" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
-       <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-        FDPO (%)
-       </div></td>
-      <td align="center" class="taxonomy-dimensional-header-cell  multi-language-content content-tr" style="display: table-cell;">
-       <div class="gwt-Label multi-language-content content-tr" style="display: block;">
-        Geçerlilik Tarihi
-       </div></td>
-      <td class="icon-column"><a href="javascript:;" class="add-typed-button"><i class="fa fa-plus fa-3x"></i> </a></td>
      </tr>
-     <tr class="new-type-row">
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         PAPILON SAVUNMA
-        </div>
-       </div></td>
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         100
-        </div>
-       </div></td>
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         06/08/2025
-        </div>
-       </div></td>
-      <td class="icon-column"><a href="javascript:;"><i class="fa fa-trash-o fa-3x"></i> </a></td>
+     <tr>
+      <td>
+       <div style="height: 20px;"></div></td>
      </tr>
-     <tr class="new-type-row">
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         ONB BANK
-        </div>
-       </div></td>
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         0,12
-        </div>
-       </div></td>
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         06/08/2025
-        </div>
-       </div></td>
-      <td class="icon-column"><a href="javascript:;"><i class="fa fa-trash-o fa-3x"></i> </a></td>
+     <tr>
+      <td>
+       <table border="1" style="font-size:10px">
+        <tbody>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İHRAÇÇI ÜYE Ünvan
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İHRAÇÇI ÜYE Borsa Kodu
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ISIN Kod
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kıymet Türü
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Nakit Ödeme Tarihi
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İşlem Türü
+           </div></td>
+         </tr>
+         <tr></tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            AB SUKUK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ABVKS
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDABVL82513
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ALIM SATIMA DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            AB SUKUK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ABVKS
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDABVL82513
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ALIM SATIMA DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            AG ANADOLU GRUBU HOLDİNG A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            AGHOL
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRSYAZI82619
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ÖZEL SEKTÖR TAHVİLİ
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            BULLS YATIRIM MENKUL DEĞERLER A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            BLSMD
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFBLLY82519
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            BULLS YATIRIM MENKUL DEĞERLER A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            BLSMD
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFBLLY82519
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            DESTEK YATIRIM BANKASI A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            DTBMK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRSDSBKK2515
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EMLAK KATILIM VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EKTVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDEVKS82537
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EMLAK KATILIM VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EKTVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDEVKS82537
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EMLAK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EMVAR
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDEMVK82530
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EMLAK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            EMVAR
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDEMVK82530
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ENERJİSA ENERJİ A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ENJSA
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRSENSA22612
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ÖZEL SEKTÖR TAHVİLİ
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            HALK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            HLVKS
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDHVKA82512
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            HALK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            HLVKS
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDHVKA82512
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İSTANBUL FAKTORİNG A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ISTFK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFIFASK2521
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KT KİRA SERTİFİKALARI VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KTKVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDKTVK82516
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KT KİRA SERTİFİKALARI VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KTKVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDKTVK82516
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KT SUKUK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KTSVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDKTSK82538
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ALIM SATIMA DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KT SUKUK VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            KTSVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDKTSK82538
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ALIM SATIMA DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            MERCEDES-BENZ FİNANSMAN TÜRK A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            MBFTR
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRSMCBF82518
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ÖZEL SEKTÖR TAHVİLİ
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            MERCEDES-BENZ FİNANSMAN TÜRK A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            MBFTR
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRSMCBF82518
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            ÖZEL SEKTÖR TAHVİLİ
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            MARBAŞ MENKUL DEĞERLER A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            MRBAS
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFMARB52616
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            OYAK YATIRIM MENKUL DEĞERLER A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            OYYAT
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFOYMD82517
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            QNB YATIRIM MENKUL DEĞERLER A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            QNBIN
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TR0QNBI01L30
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YAPILANDIRILMIŞ BORÇLANMA ARACI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            SÜMER VARLIK YÖNETİM A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            SMRVA
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFSUVY22618
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TAM FİNANS FAKTORİNG A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TAMFA
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFTAMF52613
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TAM FİNANS FAKTORİNG A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TAMFA
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRFTAMFK2516
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            VAKIF VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            VAKVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDVVRK82517
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            İtfa
+           </div></td>
+         </tr>
+         <tr>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            VAKIF VARLIK KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            VAKVK
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRDVVRK82517
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            YÖNETİM SÖZLEŞMESİNE DAYALI KİRA SERTİFİKASI
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+         <tr class="bgLightgray">
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            VDF FİLO KİRALAMA A.Ş.
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            VDFLO
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            TRSVDFF52610
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            FİNANSMAN BONOSU
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            07/08/2025
+           </div></td>
+          <td>
+           <div class="gwt-HTML control-label lineheight-32px">
+            Kupon\Getiri Ödeme
+           </div></td>
+         </tr>
+        </tbody>
+       </table></td>
      </tr>
-     <tr class="new-type-row">
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         VISNE MADENCILIK
-        </div>
+     <tr>
+      <td>
+       <div style="height: 20px;"></div></td>
+     </tr>
+     <tr>
+      <td>
+       <div class="gwt-HTML control-label lineheight-32px">
+        Bilgi notu:İhraççı üyeler tarafından MKS'ye iletilen ödeme tarihi ve kupon/getiri oranı bilgileri doğrultusunda hesaplanan ödeme tutarları yatırım kuruluşlarının İstanbul Takas ve Saklama Bankası A.Ş. nezdindeki hesaplarına aktarılmıştır.
        </div></td>
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         10
-        </div>
-       </div></td>
-      <td class="taxonomy-context-value  multi-language-content content-tr" style="display: table-cell;">
-       <div>
-        <div class="taxonomy-label-field align-right-important">
-         06/08/2025
-        </div>
-       </div></td>
-      <td class="icon-column"><a href="javascript:;"><i class="fa fa-trash-o fa-3x"></i> </a></td>
      </tr>
     </tbody>
    </table>
